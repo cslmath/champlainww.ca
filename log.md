@@ -34,3 +34,4 @@ Initialize project
 * (optional)  poetry config --list
 * poetry add mkdocs
     * venv && mkdocs --version - all good
+* poetry add mkdocs-material

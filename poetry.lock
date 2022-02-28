@@ -115,6 +115,30 @@ watchdog = ">=2.0"
 i18n = ["babel (>=2.9.0)"]
 
 [[package]]
+name = "mkdocs-material"
+version = "8.2.3"
+description = "A Material Design theme for MkDocs"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+jinja2 = ">=2.11.1"
+markdown = ">=3.2"
+mkdocs = ">=1.2.3"
+mkdocs-material-extensions = ">=1.0"
+pygments = ">=2.10"
+pymdown-extensions = ">=9.0"
+
+[[package]]
+name = "mkdocs-material-extensions"
+version = "1.0.3"
+description = "Extension pack for Python Markdown."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "packaging"
 version = "21.3"
 description = "Core utilities for Python packages"
@@ -124,6 +148,25 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
+
+[[package]]
+name = "pygments"
+version = "2.11.2"
+description = "Pygments is a syntax highlighting package written in Python."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
+name = "pymdown-extensions"
+version = "9.2"
+description = "Extension pack for Python Markdown."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+Markdown = ">=3.2"
 
 [[package]]
 name = "pyparsing"
@@ -200,7 +243,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "5be45ef7602456f7c459f73c923fa5f313a66605159042db0982d0bf30cca4e3"
+content-hash = "646735dc767b161625f5ebb5098f30d49cc622a61829424aefa6649ac35fd9b0"
 
 [metadata.files]
 click = [
@@ -277,9 +320,25 @@ mkdocs = [
     {file = "mkdocs-1.2.3-py3-none-any.whl", hash = "sha256:a1fa8c2d0c1305d7fc2b9d9f607c71778572a8b110fb26642aa00296c9e6d072"},
     {file = "mkdocs-1.2.3.tar.gz", hash = "sha256:89f5a094764381cda656af4298727c9f53dc3e602983087e1fe96ea1df24f4c1"},
 ]
+mkdocs-material = [
+    {file = "mkdocs-material-8.2.3.tar.gz", hash = "sha256:aea074a5b368c8a27c8ae4fe72bd943176512b225541106797e367c62ce3f5a0"},
+    {file = "mkdocs_material-8.2.3-py2.py3-none-any.whl", hash = "sha256:34a3155fe30f3fd697acef230e459e0428acb0481bcbb968e4a94a3ac174af18"},
+]
+mkdocs-material-extensions = [
+    {file = "mkdocs-material-extensions-1.0.3.tar.gz", hash = "sha256:bfd24dfdef7b41c312ede42648f9eb83476ea168ec163b613f9abd12bbfddba2"},
+    {file = "mkdocs_material_extensions-1.0.3-py3-none-any.whl", hash = "sha256:a82b70e533ce060b2a5d9eb2bc2e1be201cf61f901f93704b4acf6e3d5983a44"},
+]
 packaging = [
     {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
     {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
+]
+pygments = [
+    {file = "Pygments-2.11.2-py3-none-any.whl", hash = "sha256:44238f1b60a76d78fc8ca0528ee429702aae011c265fe6a8dd8b63049ae41c65"},
+    {file = "Pygments-2.11.2.tar.gz", hash = "sha256:4e426f72023d88d03b2fa258de560726ce890ff3b630f88c21cbb8b2503b8c6a"},
+]
+pymdown-extensions = [
+    {file = "pymdown-extensions-9.2.tar.gz", hash = "sha256:ed8f69a18bc158f00cbf03abc536b88b6e541b7e699156501e767c48f81d8850"},
+    {file = "pymdown_extensions-9.2-py3-none-any.whl", hash = "sha256:f2fa7d9317c672a419868c893c20a28fb7ed7fc60d4ec4774c35e01398ab330c"},
 ]
 pyparsing = [
     {file = "pyparsing-3.0.7-py3-none-any.whl", hash = "sha256:a6c06a88f252e6c322f65faf8f418b16213b51bdfaece0524c1c1bc30c63c484"},

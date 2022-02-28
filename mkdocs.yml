@@ -1,0 +1,46 @@
+site_name: MkDocs Sandbox
+site_url: https://malcolmharper.ca/mkdocs/
+repo_url: https://github.com/maharper/mkdocs_sandbox/
+repo_name: GitHub
+site_description: Experimentation and testing mkdocs
+site_author: Malcolm Harper
+nav:
+    - Students:
+        - students/index.md
+        - Tips for students: students/tips-for-students.md
+    - Instructors: instructors/
+    - Authors: authors/
+    - Courses: https://webwork.champlainww.ca/webwork2/
+    - About: about.md
+markdown_extensions:
+    - smarty
+    - admonition
+    - toc:
+        permalink: false
+        title: Table of contents
+        toc_depth: 2-3
+theme:
+    # name: mkdocs
+    # locale: en
+    name: material
+    features:
+        - navigation.tabs
+#       - navigation.tabs.sticky
+#        - navigation.sections      # incompatible with toc.integrate
+#       - navigation.expand
+        - navigation.top
+#        - toc.integrate             # incompatible with navigation.sections
+    palette: 
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          toggle:
+              icon: material/lightbulb-outline 
+              name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate 
+          toggle:
+              icon: material/lightbulb
+              name: Switch to light mode
+
+use_directory_urls: false
+    
