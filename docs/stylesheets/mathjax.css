@@ -1,0 +1,7 @@
+.md-nav__link {
+    display: block;
+    }
+
+.md-nav__link > mjx-container {
+    display: inline;
+    }

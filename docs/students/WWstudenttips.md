@@ -3,40 +3,47 @@ title: "Tips for Students"
 ---
 # Tips for Students 
 
+[TOC]
+
 ## Using WebWorK
 
 ###  How do I log on?  
 
-To log into WebWorK, point your Web browser to the address
-<http://www.champlainww.ca/>, then click on Courses, and finally
+To log into WebWorK, go to
+[https://www.champlainww.ca](https://www.champlainww.ca), click **Courses**, and finally
 choose your course from the list.
--   Your **Username** is your seven-digit student number.
--   Your initial **Password** is your seven-digit student number.
+
+- Your **Username** is your seven-digit student number.
+- Your initial **Password** is your seven-digit student number.
 
 As soon as you log in for the first time you should use the
-Password/Email link to:
--   Change your password
--   Enter your email
+**User Settings** link to:
 
+-   Change your password
+-   Check your email
 
 ### I changed my password and forgot it. What should I do?
 
 Your teacher can reset your password to its initial password.
 
+### I still can't log in.  What should I do?
+
+See [More log in tips](WWcannotlogin.md).
 
 ## Doing WeBWorK assignments
 
 ### How do I print all the questions in my assignment?
 
-In WeBWorK, the phrase \"Download a hardcopy\" means print the
+In WeBWorK, the phrase _"Download a hardcopy"_ means print the
 assignment as a Portable Document Format (PDF) file. There are two
 places in WeBWorK where you can print an assignment:
--   From the list of Homework Sets, click in the box to put a check
-mark beside the assignment you want and then click on \"Download
-PDF or TeX Hardcopy for Selected Sets\" (near the bottom).
--   Or, from within the assignment, where you can see the list of
-problems, click on \"Download PDF or TeX Hardcopy for Current
-Set\".
+
+-   From the list of Homework Sets,
+    click in the box to put a check mark beside the assignment you want
+    and then click on _"Download PDF or TeX Hardcopy for Selected Sets"_ (near the bottom).
+-   Or, from within the assignment,
+    where you can see the list of problems,
+    click on _"Download PDF or TeX Hardcopy for Current Set"_.
 
 
 ### How do I see the correct answer?
@@ -75,7 +82,7 @@ your score will not be recorded.
 
 ### In my printed assignment, I see a \"?\" (boxed) in the middle of a question. Is that a misprint?
 
-The \"?\" (boxed) appears in the pdf printout whenever there is a
+The "?" (boxed) appears in the pdf printout whenever there is a
 drop-down box menu in that question. In that case, you will need to
 login to WeBWorK to view that question *online* to see the drop-down
 choices available for the answer.
@@ -105,14 +112,14 @@ Enter `pi` for the number $\pi$ in WeBWorK.
 -   Use the Preview button to see what WeBWorK understands that you
 have entered.
 -   See if there are any ways to simplify your answer. For example,
-simplify e\^0 $e^0$ to 1, simplify $1^{5/2}$ 1\^(5/2) to 1, simplify $\sin\pi$ sin(π) to
-0, simplify cos(π) to -1, and so on.
+simplify $e^0$ to 1, simplify $1^{5/2}$  to 1, simplify $\sin\pi$ to
+0, simplify $\cos(\pi)$ to -1, and so on.
 -   Do you expect your answer to be positive or negative? Use the
 Preview button.
 -   Check for brackets, especially with negative numbers. For
-example, (-3)\^2 is not the same as -3\^2.
--   Check how you enter exponents. For example, e\^3\^x is not the
-same as e\^(3x).
+example, `(-3)^2` is not the same as `-3^2`.
+-   Check how you enter exponents. For example, `e^3^x` is not the
+same as `e^(3x)`.
 -   Check that you are using the correct brackets for intervals (see
 below).
 -   Check that you use a dot for a decimal point and not a comma.
@@ -123,8 +130,8 @@ below).
 For most numerical problems, WeBWorK counts an answer within .01
 percent of the right answer as correct. So, if the right answer is
 12345, anything between 12343.765 and 12346.235 counts as correct.
-If the correct answer is smaller, π /2 for example, an answer would
-need to be within about 0.0001570796 of π /2 to be considered
+If the correct answer is smaller, \(\pi / 2 \) for example, an answer would
+need to be within about 0.0001570796 of \(\pi / 2 \) to be considered
 correct.
 
 ### The answer box is too small. How do I enter my answer?
@@ -139,7 +146,7 @@ to type characters.
 Use a round bracket, that is, \"(\" or \")\", if the endpoint of the
 interval is not included. Use a square bracket, that is, \"\[\" or
 \"\]\", if the endpoint of the interval is included.
-For example, enter (-4,3) to indicate the interval -4\<x\<3. Note:
+For example, enter `(-4,3)` to indicate the interval $-4<x<3$. Note:
 WeBWorK will not accept \]-4,3\[ as a correct answer for that same
 interval.
 
@@ -151,6 +158,6 @@ Use a dot for the decimal point. For example, a number such as 0.625
 
 ------------------------------------------------------------------------
 
-*This page reviewed August 17, 2018.*
+*This page reviewed March&nbsp;29, 2022.*
 
 © 2009-2022 Champlain College Saint-Lambert. All Rights Reserved. 	
