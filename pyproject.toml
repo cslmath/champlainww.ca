@@ -8,6 +8,7 @@ authors = ["Malcolm Harper <ve2ddz@ve2ddz.ca>"]
 python = "^3.8"
 mkdocs = "^1.2.3"
 mkdocs-material = "^8.2.3"
+mkdocs-git-revision-date-localized-plugin = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
 

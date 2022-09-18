@@ -1,5 +1,6 @@
 ---
-title: "Tips for Students"
+title: Tips for Students
+author: michele
 ---
 # Tips for Students 
 

@@ -1,9 +1,12 @@
 ---
 title: MkDocs vs Pelican
-...
+author: malcolm
+date: TBD
+---
 
 
-# MkDocs vs pelican
+# MkDocs vs Pelican
+(April 1, 2022)
 
 How do the implementations overlap md vs md
 

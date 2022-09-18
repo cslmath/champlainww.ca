@@ -74,5 +74,10 @@ mkdocs gh-deploy --force    # when is --force really needed
 ## 2022-09-18
 
 * update log (this file)
-
+* move mkdocs notes to authors section and start a landing page modelled  
+    on the current landing page.
+* Add revised date note on each page:
+    * `poetry add mkdocs-git-revision-date-localized-plugin`
+    * add to `mkdocs.yaml` per [docs](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
+    
 
