@@ -1,5 +1,5 @@
 # Students
 
-* [Tips for students](tips-for-students.md)
-* [Help logging in](login-troubles.md)
-* [from pandoc](WWstudenttips.md)
+* [Tips for students](WWstudenttips.md)
+* [Help logging in](WWcannotlogin.md)
+<!--- * [from pandoc](WWstudenttips.md) -->

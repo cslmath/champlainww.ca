@@ -1,16 +1,25 @@
-site_name: MkDocs Sandbox
-site_url: https://malcolmharper.ca/mkdocs/
-repo_url: https://github.com/maharper/mkdocs_sandbox/
-repo_name: GitHub
+site_name: Champlain Saint-Lambert WeBWorK
+# site_url: https://malcolmharper.ca/
+site_url: https://maharper.github.io/
+repo_url: https://github.com/maharper/maharper.github.io/
+repo_name: Site Source
 site_description: Experimentation and testing mkdocs
 site_author: Malcolm Harper
 nav:
+    - Courses: https://webwork.champlainww.ca/webwork2/
     - Students:
         - students/index.md
-        - Tips for students: students/tips-for-students.md
-    - Instructors: instructors/
-    - Authors: authors/
-    - Courses: https://webwork.champlainww.ca/webwork2/
+        - Tips for students: students/WWstudenttips.md
+        - I still can't log in: students/WWcannotlogin.md
+#        - Tips for students: students/tips-for-students.md
+    - Instructors:
+        - instructors/index.md
+        - Instructors sub 1: instructors/sub1.md
+        - Instructors sub 2: instructors/sub2.md
+    - Authors:
+        - authors/authors.md
+        - mkdocs vs Pelican: authors/mkdocs-vs-pelican.md
+    - Status: https://stats.uptimerobot.com/nz5WEi1w3
     - About: about.md
     
 markdown_extensions:
@@ -39,10 +48,11 @@ theme:
     name: material
     features:
         - navigation.tabs
-#       - navigation.tabs.sticky
+#        - navigation.tabs.sticky
 #        - navigation.sections      # incompatible with toc.integrate
 #       - navigation.expand
         - navigation.top
+        - navigation.indexes
 #        - toc.integrate             # incompatible with navigation.sections
     palette: 
         - media: "(prefers-color-scheme: light)"
@@ -57,4 +67,6 @@ theme:
               name: Switch to light mode
 
 use_directory_urls: false
+
+copyright: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> 2009-2022 Champlain College Saint-Lambert WeBWorK
     
