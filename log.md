@@ -35,3 +35,44 @@ Initialize project
 * poetry add mkdocs
     * venv && mkdocs --version - all good
 * poetry add mkdocs-material
+
+## 2022-03 to 2022-08
+
+* Experimentation
+* Transfer in the students' FAQ and how-tos
+
+## 2022-09-17
+
+* More experimentation and editing  
+```bash
+venv        # my custom alias in cmder for .venv/Scripts/activate.bat  in most clis poetry shell is the correct command
+mkdocs serve    # builds the site and previews it on a local address, rebuilds it with changes
+```
+* set up a user github pages repo at `maharper.igthub.com/maharper.github.io`
+* make a `gh-pages` branch
+* reconfigure so the `gh-pages` branch serves the site
+* set the local repo to sync with the gh repo  
+```bash
+git add .
+git commit -m "get the local repo up-to-date"                           # if needed
+git remote add origin git@github.com:maharper/maharper.github.io.git
+git fetch origin
+git merge --allow-unrelated-histories origin/main
+# no problem as there were no conflicts, if there are conflicts ...
+
+# After more testing
+
+git push --set-upstream origin main
+# set-upstream only needed the first time of course
+
+# build the site, push the newly built site to the gh-pages branch on gh.  It's alive!
+mkdocs gh-deploy --force    # when is --force really needed
+```
+* rinse and repeat as needed
+* Need a better previewing strategy once the site is live
+
+## 2022-09-18
+
+* update log (this file)
+
+
