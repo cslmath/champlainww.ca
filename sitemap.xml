@@ -6,6 +6,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://maharper.github.io/news.html</loc>
+         <lastmod>2022-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maharper.github.io/quotes.html</loc>
+         <lastmod>2022-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://maharper.github.io/authors/authors.html</loc>
          <lastmod>2022-09-18</lastmod>
          <changefreq>daily</changefreq>
@@ -16,12 +26,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://maharper.github.io/authors/mkdocs.html</loc>
+         <lastmod>2022-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://maharper.github.io/instructors/index.html</loc>
          <lastmod>2022-09-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/instructors/import-classlist.html</loc>
+         <loc>https://maharper.github.io/instructors/WWcreateset.html</loc>
+         <lastmod>2022-09-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://maharper.github.io/instructors/WWimport-classlist.html</loc>
          <lastmod>2022-09-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
