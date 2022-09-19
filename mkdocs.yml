@@ -19,12 +19,10 @@ copyright: CC BY-SA &copy; 2009-2022 Champlain College Saint-Lambert WeBWorK
 # layout
  
 nav:
-    - Courses: https://webwork.champlainww.ca/webwork2/
     - Students:
         - students/index.md
         - Tips for students: students/WWstudenttips.md
         - I still can't log in: students/WWcannotlogin.md
-#        - Tips for students: students/tips-for-students.md
     - Instructors:
         - instructors/index.md
         - Create a homework set: instructors/WWcreateset.md
@@ -33,7 +31,6 @@ nav:
         - authors/authors.md
         - MkDocs vs Pelican: authors/mkdocs-vs-pelican.md
         - MkDocs: authors/mkdocs.md
-    - Status: https://stats.uptimerobot.com/nz5WEi1w3
     - About: about.md
 
 ##########

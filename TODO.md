@@ -31,6 +31,12 @@ Confirm metadata is there.
     * cleanup copyright notice  
     * do we want to split into multiple pages?
     * keep or lose the toc
+- [ ] Move 2.17 notice to Announcement bar from landing page
+    * link into news page for further information
+    * move news page to about section from landing page section
+- [ ] Move quotes to about section
+- [ ] Write about page
+
 
 ## Decisions
 
@@ -54,6 +60,10 @@ Confirm metadata is there.
 - [ ] WW favicon
 - [ ] Configuration [options at MkDocs](https://www.mkdocs.org/user-guide/configuration/)
 - [ ] and Material for MkDocs
+
+## Branding
+
+- [ ] Colours to match Champlain colours
 
 ## Project
 

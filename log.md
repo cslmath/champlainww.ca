@@ -79,5 +79,9 @@ mkdocs gh-deploy --force    # when is --force really needed
 * Add revised date note on each page:
     * `poetry add mkdocs-git-revision-date-localized-plugin`
     * add to `mkdocs.yaml` per [docs](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
-    
+* Initialize TODO.md
+
+## 2022-09-19
+
+* move courses and status links out of the nav and onto the landing page    
 

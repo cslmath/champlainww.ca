@@ -6,11 +6,14 @@ date: 2022-09-18
  
 # Welcome to WeBWorK
 
-WeBWorK is an Internet-based system for generating and delivering homework problems to students.
-Its goal is to make homework more effective and efficient.
-It increases the effectiveness of traditional homework as a learning tool.
+This is the home of the WeBWorK homework system for Champlain College Saint-Lambert.
+Follow the link to find your course or to check the server status.
 
+[:material-checkbox-marked:{ color=red } Current Courses](https://webwork.champlainww.ca/webwork2/){ .md-button }
+[:material-server-network: Server Status](https://stats.uptimerobot.com/nz5WEi1w3){ .md-button }
 
+If you have questions about WeBWorK, check the help pages here.
+If you still have questions, contact one of us.
 
 !!! question ":material-email-outline: Contacts"
 
