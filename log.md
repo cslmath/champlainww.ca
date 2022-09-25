@@ -85,3 +85,7 @@ mkdocs gh-deploy --force    # when is --force really needed
 
 * move courses and status links out of the nav and onto the landing page    
 
+## 2022-09-25
+
+* Move the latest news to the announcement bar
+    - see TODO.md and git log for details
