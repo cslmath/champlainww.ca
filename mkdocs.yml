@@ -26,12 +26,12 @@ nav:
     - Instructors:
         - instructors/index.md
         - Create a homework set: instructors/WWcreateset.md
-        - Import a classlist: instructors/WWimport-classlist.md
+#        - Import a classlist: instructors/WWimport-classlist.md
     - Authors:
         - authors/authors.md
         - MkDocs vs Pelican: authors/mkdocs-vs-pelican.md
         - MkDocs: authors/mkdocs.md
-    - About: about.md
+    - About: about/about.md
 
 ##########
 # Build
@@ -40,6 +40,7 @@ theme:
     # name: mkdocs
     # locale: en
     name: material
+    custom_dir: overrides
     features:
         - navigation.tabs
 #        - navigation.tabs.sticky
@@ -48,6 +49,7 @@ theme:
         - navigation.top
         - navigation.indexes
 #        - toc.integrate             # incompatible with navigation.sections
+        - announce.dismiss          # click away the announcement bar https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#mark-as-read
     palette: 
         - media: "(prefers-color-scheme: light)"
           scheme: default
@@ -78,6 +80,8 @@ extra:
 
 use_directory_urls: false   # true for links like /students/
                             # false for links like /students/index.html
+watch:
+    - overrides             # watch for updates in the overrides
 
 ##########
 # Formatting options

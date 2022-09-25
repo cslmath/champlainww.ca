@@ -4,6 +4,13 @@ author: malcolm
 date: 2009-02-01
 ---
 
+# WeBWorK News
+
+???+ info "August 15, 2022 - Upgrade to 2.17"
+
+    The Champlain WeBWorK system has been upgraded to version 2.17.
+    More details can be found in the [release notes](https://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.17).
+
 ??? info "August 18, 2021 - New Host, upgrade to 2.16"
 
     The Champlain WeBWorK system has been moved to a new host located in Toronto, Canada.
