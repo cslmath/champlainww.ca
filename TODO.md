@@ -36,7 +36,7 @@ Confirm metadata is there.
     * move news page to about section from landing page section
 - [ ] Move quotes to about section
 - [ ] Write about page
-
+- [ ] Bring `ww-author-tips-gotchas.md` in from current staging branch
 
 ## Decisions
 
@@ -52,6 +52,8 @@ Confirm metadata is there.
 - [ ] Bad links in imported assignments
 - [ ] Submitting to the CPL
 - [ ] Import a WW classlist
+- [ ] Authoring notes for this documentation site
+- [ ] Write README that tells how to develop for this site.
 
 ## MkDocs
 
