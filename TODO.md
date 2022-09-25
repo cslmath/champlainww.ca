@@ -36,7 +36,7 @@ Confirm metadata is there.
     * move news page to about section from landing page section
 - [ ] Move quotes to about section
 - [ ] Write about page
-- [ ] Bring `ww-author-tips-gotchas.md` in from current staging branch
+- [x] Bring `ww-author-tips-gotchas.md` in from current staging branch
 
 ## Decisions
 
