@@ -57,7 +57,8 @@ theme:
         - announce.dismiss          # click away the announcement bar https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#mark-as-read
     palette: 
         - media: "(prefers-color-scheme: light)"
-          scheme: default
+ #         scheme: default
+          scheme: champlain  
           toggle:
               icon: material/lightbulb-outline 
               name: Switch to dark mode
@@ -72,6 +73,7 @@ theme:
 extra_css:
   - stylesheets/mathjax.css
   - stylesheets/banner.css
+  - stylesheets/champlain.css
 
 extra_javascript:
     - javascripts/mathjax.js
