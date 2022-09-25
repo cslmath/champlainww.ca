@@ -2,9 +2,15 @@
 title: Notes for Problem Authors
 author: malcolm
 date: 2022-09-17
+tags:
+    - authors
 ---
 
 # Notes for Problem Authors
+
+## WeBWorK Problem Authoring
+
+* [Gotchas](ww-author-tips-gotchas.md)
 
 ## Documentation Authoring
 

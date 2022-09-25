@@ -14,16 +14,25 @@ Confirm metadata is there.
 - [x] students/index.md
 - [ ] students/WWstudenttips.md written??  Substantially re-formatted March, 2022.
 - [x] students/WWcannotlogin.md
-* instructors/
+- instructors/
     - [x] index.md
     - [x] WWcreateset.md
     - [x] WWimport-classlist.md (not written yet)
-* authors/
+- authors/
     - [ ] authors.md
         - [ ] move to index.md for consistency (or move the others)
         - [x] metadata
     - [x] mkdocs.md
     - [x] mkdocs-vs-pelican.md
+- [ ] Add tags to pages
+    - see [mkdocs-material-tags](https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/)
+    - The format is  
+``` yaml
+tags:
+  - pg
+  - perl
+  - authoring
+```
 
 ## Page content
 
@@ -62,6 +71,10 @@ Confirm metadata is there.
 - [ ] WW favicon
 - [ ] Configuration [options at MkDocs](https://www.mkdocs.org/user-guide/configuration/)
 - [ ] and Material for MkDocs
+- [ ] How to syntax highlight pg code
+    - [ ] For now, how to alias `pg` as `perl`
+- [ ] Set up tags in config
+- [ ] Set up tags index
 
 ## Branding
 
