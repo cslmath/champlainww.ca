@@ -83,6 +83,7 @@ tags:
     * [ ] For now, how to alias `pg` as `perl`
 - [ ] Set up tags in config
 - [ ] Set up tags index
+- [ ] Configure search options (material options are different from MkDocs)
 
 ## Branding
 

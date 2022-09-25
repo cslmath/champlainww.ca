@@ -71,6 +71,7 @@ theme:
 
 extra_css:
   - stylesheets/mathjax.css
+  - stylesheets/banner.css
 
 extra_javascript:
     - javascripts/mathjax.js
