@@ -44,8 +44,9 @@ tags:
     * link into news page for further information
     * move news page to about section from landing page section
     * hardcoded text colour into `<a>` for now, see if this starts working eventually
-- [ ] Move quotes to about section
+- [x] Move quotes to about section
 - [ ] Write about page
+    * started 2022-09-19
 - [x] Bring `ww-author-tips-gotchas.md` in from current staging branch
 
 ## Decisions
@@ -54,6 +55,11 @@ tags:
     * cc by-sa or
     * gnu free documentation lic or
     * all rights reserved or
+- [ ] Naming convention for pages
+    * `WWcreateset.md` vs `ww-create-set.md`
+- [x] `<topic>/index.md` or `<topic>/<topic>.md`
+    * `<topic>/<topic>.md`
+- [ ] Directory links or not (see [MkDocs docs](https://www.mkdocs.org/user-guide/configuration/#use_directory_urls) and material??)
 
 ## New Content
 
@@ -86,3 +92,4 @@ tags:
 
 - [ ] linting and formating
     * yamllint? (https://github.com/adrienverge/yamllint)
+    * markdownlint

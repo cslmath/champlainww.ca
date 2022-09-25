@@ -20,11 +20,11 @@ copyright: CC BY-SA &copy; 2009-2022 Champlain College Saint-Lambert WeBWorK
  
 nav:
     - Students:
-        - students/index.md
+        - students/students.md
         - Tips for students: students/WWstudenttips.md
         - I still can't log in: students/WWcannotlogin.md
     - Instructors:
-        - instructors/index.md
+        - instructors/instructors.md
         - Create a homework set: instructors/WWcreateset.md
 #        - Import a classlist: instructors/WWimport-classlist.md
     - Authors:
