@@ -1,0 +1,20 @@
+/* Customize the colours to match Champlain branding */
+
+[data-md-color-scheme="champlain"] {
+    --md-primary-fg-color:                  hsl(202, 100%, 40%);
+    --md-primary-fg-color--light:           hsl(202, 100%, 60%);
+    --md-primary-fg-color--dark:            hsl(202, 85%, 20%);
+    --md-accent-fg-color:                   hsl(202, 100%, 50%);
+    --md-accent-fg-color--transparent:      hsla(202, 100%, 50%,0.1);
+    }
+    
+    /* Tweak the dark mode to match */
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 213;   
+    --md-primary-fg-color:                  hsl(202, 95%, 35%);
+    --md-primary-fg-color--light:           hsl(202, 92%, 40%);
+    --md-primary-fg-color--dark:            hsl(202, 100%, 30%);
+    --md-accent-fg-color:                   hsl(202, 95%, 40%);
+    --md-accent-fg-color--transparent:      hsla(202, 95%, 40%, 0.1);
+ }
