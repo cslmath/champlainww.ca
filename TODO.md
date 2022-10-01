@@ -34,6 +34,25 @@ tags:
   - authoring
 ```
 
+## Authors
+
+Put page authors into page metadata.
+The authors are put into the html header, so the names should be complete.
+
+In the yaml metadata header:
+
+``` yaml
+author: Malcolm Harper
+```
+
+or
+
+``` yaml
+authors:
+    - Malcolm Harper
+    - Michèle Titcombe
+```
+
 ## Page content
 
 - [ ] students/WWstudenttips.md  
