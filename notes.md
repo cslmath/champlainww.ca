@@ -18,3 +18,4 @@ Other resources
 * https://github.com/squidfunk/mkdocs-material/blob/master/src/assets/stylesheets/main/_colors.scss
 * https://github.com/mrmlnc/material-color/blob/master/material-color.less
 * https://tgomilar.github.io/hex2rgb/
+
