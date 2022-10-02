@@ -20,7 +20,8 @@ Confirm metadata is there.
     * [x] WWimport-classlist.md (not written yet)
 - authors/
     * [ ] authors.md
-        - [ ] move to index.md for consistency (or move the others)
+        - [x] move to index.md for consistency (or move the others)
+            * Others were moved for now.
         - [x] metadata
     * [x] mkdocs.md
     * [x] mkdocs-vs-pelican.md
@@ -36,13 +37,16 @@ tags:
 
 ## Authors
 
-Put page authors into page metadata.
-The authors are put into the html header, so the names should be complete.
+- [x] Put page authors into page metadata.
+
+~~The authors are put into the html header, so the names should be complete.~~
+Nope, the author in the html head is the site author from `mkdocs.yml`
 
 In the yaml metadata header:
 
 ``` yaml
-author: Malcolm Harper
+authors:
+    - Malcolm Harper
 ```
 
 or
@@ -94,8 +98,8 @@ authors:
 ## MkDocs
 
 - [ ] Custom 404 page
-- [ ] WeBWorK icon
-- [ ] WW favicon
+- [x] WeBWorK icon
+- [x] WW favicon
 - [ ] Configuration [options at MkDocs](https://www.mkdocs.org/user-guide/configuration/)
 - [ ] and Material for MkDocs
 - [ ] How to syntax highlight pg code
@@ -106,7 +110,7 @@ authors:
 
 ## Branding
 
-- [ ] Colours to match Champlain colours
+- [x] Colours to match Champlain colours
 
 ## Project
 

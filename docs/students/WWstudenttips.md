@@ -1,6 +1,7 @@
 ---
 title: Tips for Students
-author: michele
+authors:
+    - Michèle Titcombe
 ---
 # Tips for Students 
 
@@ -8,7 +9,7 @@ author: michele
 
 ## Using WebWorK
 
-###  How do I log on?  
+### How do I log on?  
 
 To log into WebWorK, go to
 [https://www.champlainww.ca](https://www.champlainww.ca), click **Courses**, and finally
@@ -20,8 +21,8 @@ choose your course from the list.
 As soon as you log in for the first time you should use the
 **User Settings** link to:
 
--   Change your password
--   Check your email
+- Change your password
+- Check your email
 
 ### I changed my password and forgot it. What should I do?
 
@@ -39,13 +40,12 @@ In WeBWorK, the phrase _"Download a hardcopy"_ means print the
 assignment as a Portable Document Format (PDF) file. There are two
 places in WeBWorK where you can print an assignment:
 
--   From the list of Homework Sets,
+- From the list of Homework Sets,
     click in the box to put a check mark beside the assignment you want
     and then click on _"Download PDF or TeX Hardcopy for Selected Sets"_ (near the bottom).
--   Or, from within the assignment,
+- Or, from within the assignment,
     where you can see the list of problems,
     click on _"Download PDF or TeX Hardcopy for Current Set"_.
-
 
 ### How do I see the correct answer?
 
@@ -54,11 +54,11 @@ checking the \"Show Correct Answer\" box and then checking your
 answer, or by printing your assignment (downloading a hard copy)
 with answers.
 
-3.  [**I\'m sure my answer is correct, but it is scored as a wrong
+3. [**I\'m sure my answer is correct, but it is scored as a wrong
 answer. What can I do?**]{#d3}\
 Talk to your teacher.
 
-4.  [**What happens if I answer a question right the first time, and try
+4. [**What happens if I answer a question right the first time, and try
 it again later and get it wrong?**]{#d4}\
 If you do a problem correctly once, its status will always be
 Correct even if you later do the problem again incorrectly. It the
@@ -92,7 +92,6 @@ choices available for the answer.
 
 You may need to scroll down the page to see the problems.
 
-
 ------------------------------------------------------------------------
 
 ## Entering answers in WeBWorK
@@ -110,21 +109,20 @@ Enter `pi` for the number $\pi$ in WeBWorK.
 
 ### WeBWorK says my answer is incorrect but I can\'t see what is wrong. What can I try?
 
--   Use the Preview button to see what WeBWorK understands that you
+- Use the Preview button to see what WeBWorK understands that you
 have entered.
--   See if there are any ways to simplify your answer. For example,
+- See if there are any ways to simplify your answer. For example,
 simplify $e^0$ to 1, simplify $1^{5/2}$  to 1, simplify $\sin\pi$ to
 0, simplify $\cos(\pi)$ to -1, and so on.
--   Do you expect your answer to be positive or negative? Use the
+- Do you expect your answer to be positive or negative? Use the
 Preview button.
--   Check for brackets, especially with negative numbers. For
+- Check for brackets, especially with negative numbers. For
 example, `(-3)^2` is not the same as `-3^2`.
--   Check how you enter exponents. For example, `e^3^x` is not the
+- Check how you enter exponents. For example, `e^3^x` is not the
 same as `e^(3x)`.
--   Check that you are using the correct brackets for intervals (see
+- Check that you are using the correct brackets for intervals (see
 below).
--   Check that you use a dot for a decimal point and not a comma.
-
+- Check that you use a dot for a decimal point and not a comma.
 
 ### How many decimal places do I need to have my answer scored correctly?
 
@@ -156,9 +154,8 @@ interval.
 Use a dot for the decimal point. For example, a number such as 0.625
 (that is, do not write it as 0,625).
 
-
 ------------------------------------------------------------------------
 
 *This page reviewed March&nbsp;29, 2022.*
 
-© 2009-2022 Champlain College Saint-Lambert. All Rights Reserved. 	
+© 2009-2022 Champlain College Saint-Lambert. All Rights Reserved.

@@ -1,6 +1,7 @@
 ---
 title: Problem Authors - Gotchas
-author: michele
+authors:
+    - Michèle Titcombe
 date: 2021-11-11
 tags:
     - authors

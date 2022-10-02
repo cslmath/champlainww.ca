@@ -1,6 +1,7 @@
 ---
 Title: MkDocs
-author: malcolm
+authors:
+    - Malcolm Harper
 date: TBD
 ---
 

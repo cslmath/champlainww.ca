@@ -1,6 +1,5 @@
 ---
 title: Quotes from WeBWorK Students
-author: malcolm
 date: 2009-05-01
 ---
 

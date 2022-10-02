@@ -1,6 +1,5 @@
 ---
 Title: Create a WeBWorK Homework Set
-Author: malcolm
 Date: 2009-04-07
 ---
 

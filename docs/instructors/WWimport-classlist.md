@@ -1,6 +1,7 @@
 ---
 title: Import a Classlist
-author: malcolm
+authors:
+    - Malcolm Harper
 date: TBD
 ---
 

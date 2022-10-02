@@ -1,6 +1,7 @@
 ---
 title: Information for Students
-author: malcolm
+authors:
+    - Malcolm Harper
 date: 2022-09-17
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: About www.champlainww.ca
 authors:
-    Malcolm Harper
+    - Malcolm Harper
 date: 2022-09-25
 tags:
     - mkdocs

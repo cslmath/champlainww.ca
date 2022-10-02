@@ -1,6 +1,7 @@
 ---
 title: WeBWorK News
-author: malcolm
+authors:
+    - Malcolm Harper
 date: 2009-02-01
 ---
 

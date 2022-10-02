@@ -1,8 +1,7 @@
 ---
 title: About Champlain WeBWorK
 authors:
-    Malcolm Harper
-    Michèle Titcombe
+    - Malcolm Harper
 date: 2022-09-19
 ---
 

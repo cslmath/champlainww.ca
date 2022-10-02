@@ -1,7 +1,7 @@
 ---
 title: About WeBWorK
 authors:
-    Malcolm Harper
+    - Malcolm Harper
 date: 2022-09-25
 tags:
     - WeBWorK
