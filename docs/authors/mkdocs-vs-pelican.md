@@ -48,15 +48,13 @@ All keys should be lowercase
 
 #### MultiMarkdown
 
-```
+``` md
 Key1: value 1
 Key2: value 2.1
       value 2.2
 ```
 
 ended by a blankline, case-insensitive
-
-
 
 ### processed
 

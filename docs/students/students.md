@@ -5,8 +5,6 @@ authors:
 date: 2022-09-17
 ---
 
-
-
 # Students
 
 * [Tips for students](WWstudenttips.md)

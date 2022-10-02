@@ -24,7 +24,7 @@ and the Material for MkDocs [documentation](https://squidfunk.github.io/mkdocs-m
 
 !!! warning
     This is some stuff of which to be careful
-    
+
 !!! danger
     Here be dragons
 

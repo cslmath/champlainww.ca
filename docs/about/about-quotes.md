@@ -3,17 +3,17 @@ title: Quotes from WeBWorK Students
 date: 2009-05-01
 ---
 
-# Quotes from Champlain WeBWorK students:
+# Quotes from Champlain WeBWorK students
 
 !!! quote
 
     I like the green bar that shows up when I get the right answer.
     It's encouraging.
-    
+
 !!! quote
 
     Its different from doing problems on paper, its really fast and it is really my generation.
-    
+
 !!! quote
 
     I liked the way it is online and you can do it at home and know whether it is immediately correct or wrong.
@@ -25,7 +25,7 @@ date: 2009-05-01
 !!! quote
 
     I understand the problems better when given the ability to correct them.
-    
+
 !!! quote
 
-    It gives us a chance to correct our own mistakes which helps me learn better. 
+    It gives us a chance to correct our own mistakes which helps me learn better.

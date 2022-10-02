@@ -24,7 +24,7 @@ Initialize project
     * add `%APPDATA%\Python\Scripts` to user path
     * `refreshenv` - needs chocolatey
     * poetry --version shows all good
-- [ ] add `venv` alias to cmder
+    - [ ] add `venv` alias to cmder
     * reload aliases`alias /reload`
 
 #### Initialize project
@@ -44,30 +44,30 @@ Initialize project
 ## 2022-09-17
 
 * More experimentation and editing  
-```bash
-venv        # my custom alias in cmder for .venv/Scripts/activate.bat  in most clis poetry shell is the correct command
-mkdocs serve    # builds the site and previews it on a local address, rebuilds it with changes
-```
+    ```bash
+    venv        # my custom alias in cmder for .venv/Scripts/activate.bat  in most clis poetry shell is the correct command
+    mkdocs serve    # builds the site and previews it on a local address, rebuilds it with changes
+    ```
 * set up a user github pages repo at `maharper.igthub.com/maharper.github.io`
 * make a `gh-pages` branch
 * reconfigure so the `gh-pages` branch serves the site
 * set the local repo to sync with the gh repo  
-```bash
-git add .
-git commit -m "get the local repo up-to-date"                           # if needed
-git remote add origin git@github.com:maharper/maharper.github.io.git
-git fetch origin
-git merge --allow-unrelated-histories origin/main
-# no problem as there were no conflicts, if there are conflicts ...
+    ```bash
+    git add .
+    git commit -m "get the local repo up-to-date"                           # if needed
+    git remote add origin git@github.com:maharper/maharper.github.io.git
+    git fetch origin
+    git merge --allow-unrelated-histories origin/main
+    # no problem as there were no conflicts, if there are conflicts ...
 
-# After more testing
+    # After more testing
 
-git push --set-upstream origin main
-# set-upstream only needed the first time of course
+    git push --set-upstream origin main
+    # set-upstream only needed the first time of course
 
-# build the site, push the newly built site to the gh-pages branch on gh.  It's alive!
-mkdocs gh-deploy --force    # when is --force really needed
-```
+    # build the site, push the newly built site to the gh-pages branch on gh.  It's alive!
+    mkdocs gh-deploy --force    # when is --force really needed
+    ```
 * rinse and repeat as needed
 * Need a better previewing strategy once the site is live
 
