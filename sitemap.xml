@@ -1,83 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://maharper.github.io/index.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/index.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/about/about-docs.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/about/about-docs.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/about/about-news.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/about/about-news.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/about/about-quotes.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/about/about-quotes.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/about/about-ww.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/about/about-ww.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/about/about.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/about/about.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/authors/authors.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/authors/author-tips-gotchas.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/authors/mkdocs-vs-pelican.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/authors/authors.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/authors/mkdocs.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/authors/mkdocs-vs-pelican.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/authors/ww-author-tips-gotchas.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/authors/mkdocs.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/instructors/WWcreateset.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/instructors/WWcreateset.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/instructors/WWimport-classlist.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/instructors/WWimport-classlist.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/instructors/instructors.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/instructors/instructors.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/students/WWcannotlogin.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/students/students-doing-assignments.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/students/WWstudenttips.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/students/students-entering-answers.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://maharper.github.io/students/students.html</loc>
-         <lastmod>2022-10-02</lastmod>
+         <loc>https://champlainww.ca/students/students-log-in.html</loc>
+         <lastmod>2022-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://champlainww.ca/students/students-still-cannot-log-in.html</loc>
+         <lastmod>2022-10-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://champlainww.ca/students/students.html</loc>
+         <lastmod>2022-10-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
