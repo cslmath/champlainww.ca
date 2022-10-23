@@ -1,10 +1,10 @@
 ---
-title: I cannot Log In
+title: I Cannot Log In
 authors:
     - Michèle Titcombe
 date: 2022-03-31
 ---
-# I still cannot log in
+# I Still Cannot Log In
 
 ## If you cannot log in to WeBWorK
 

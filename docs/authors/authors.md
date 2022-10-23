@@ -11,7 +11,7 @@ tags:
 
 ## WeBWorK Problem Authoring
 
-* [Gotchas](ww-author-tips-gotchas.md)
+* [Gotchas](author-tips-gotchas.md)
 
 ## Documentation Authoring
 

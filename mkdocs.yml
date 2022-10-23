@@ -21,16 +21,22 @@ copyright: CC BY-SA &copy; 2009-2022 Champlain College Saint-Lambert WeBWorK
 nav:
     - Students:
         - students/students.md
-        - Tips for students: students/WWstudenttips.md
-        - I still can't log in: students/WWcannotlogin.md
+        - Logging in: students/students-log-in.md
+        - I still cannot log in: students/students-still-cannot-log-in.md
+        - Doing assignments: students/students-doing-assignments.md
+        - Entering answers: students/students-entering-answers.md
+
     - Instructors:
         - instructors/instructors.md
         - Create a homework set: instructors/WWcreateset.md
 #        - Import a classlist: instructors/WWimport-classlist.md
     - Authors:
         - authors/authors.md
-        - MkDocs vs Pelican: authors/mkdocs-vs-pelican.md
-        - MkDocs: authors/mkdocs.md
+        - WeBWorK authoring:
+            - Gotchas: authors/author-tips-gotchas.md
+        - Documentation authoring:
+            - MkDocs vs Pelican: authors/mkdocs-vs-pelican.md
+            - MkDocs: authors/mkdocs.md
     - About:
         - about/about.md
         - News: about/about-news.md
@@ -56,13 +62,13 @@ theme:
 #        - toc.integrate             # incompatible with navigation.sections
         - announce.dismiss          # click away the announcement bar https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#mark-as-read
     palette: 
-        - media: "(prefers-color-scheme: light)"
+        - media: "(prefers-color-scheme: light"
  #         scheme: default
           scheme: champlain  
           toggle:
               icon: material/lightbulb-outline 
               name: Switch to dark mode
-        - media: "(prefers-color-scheme: dark)"
+        - media: "(prefers-color-scheme: dark"
           scheme: slate 
           toggle:
               icon: material/lightbulb
@@ -123,7 +129,7 @@ plugins:
         timezone: Europe/Amsterdam
         locale: en
 #        fallback_to_build_date: false
-#        enable_creation_date: true  # leave this off until we can reset the creation date using meta (currently insiders only)
+#        enable_creation_date: true  # leave this off until we can reset the creation date using meta (currently insiders only
         exclude:
           - index.md
         enabled: true

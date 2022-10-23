@@ -55,7 +55,3 @@ $a = 3;
 $b = $a^2;          # CAREFUL! Although pg recognizes ^ as exponentiation, perl does not
 $c = $a**2;         # This is the way to do exponents in perl
 ```
-
----
-
-Last update: November 11, 2021
