@@ -1,6 +1,6 @@
-TODO.md
-
 # TODO for CCSL WeBWorK Documentation Site
+
+`TODO.md`
 
 ## Dates
 
@@ -27,19 +27,20 @@ Confirm metadata is there.
     * [x] mkdocs-vs-pelican.md
 - [ ] Add tags to pages
     * see [mkdocs-material-tags](https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/)
-    * The format is  
-``` yaml
-tags:
-  - pg
-  - perl
-  - authoring
-```
+    * The format is
+
+        ``` yaml
+        tags:
+        - pg
+        - perl
+        - authoring
+        ```
 
 ## Authors
 
 - [x] Put page authors into page metadata.
 
-~~The authors are put into the html header, so the names should be complete.~~
+~~The authors are put into the html header, so the names should be complete.~~  
 Nope, the author in the html head is the site author from `mkdocs.yml`
 
 In the yaml metadata header:
@@ -115,5 +116,5 @@ authors:
 ## Project
 
 - [ ] linting and formating
-    * yamllint? (https://github.com/adrienverge/yamllint)
-    * markdownlint
+    * [yamllint?](https://github.com/adrienverge/yamllint)
+    * [x] [markdownlint](https://github.com/DavidAnson/markdownlint) in VS Code
