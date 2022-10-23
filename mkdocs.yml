@@ -118,6 +118,13 @@ markdown_extensions:
     - pymdownx.emoji: # for easy use of icons and emojis
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
+# For code highlighting
+# See https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
 
 plugins:
     - search:
@@ -133,7 +140,3 @@ plugins:
         exclude:
           - index.md
         enabled: true
-        
-
-
-    

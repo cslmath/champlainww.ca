@@ -9,6 +9,7 @@ python = "^3.8"
 mkdocs = "^1.2.3"
 mkdocs-material = "^8.2.3"
 mkdocs-git-revision-date-localized-plugin = "^1.1.0"
+pygments-pg = {git = "https://git@github.com/maharper/pygments-pg.git"}
 
 [tool.poetry.dev-dependencies]
 

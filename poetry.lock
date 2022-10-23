@@ -235,6 +235,21 @@ python-versions = ">=3.6"
 plugins = ["importlib-metadata"]
 
 [[package]]
+name = "pygments-pg"
+version = "0.1.0"
+description = "Pygments lexer for pg (WeBWorK code."
+category = "main"
+optional = false
+python-versions = "^3.7"
+develop = false
+
+[package.source]
+type = "git"
+url = "https://git@github.com/maharper/pygments-pg.git"
+reference = "HEAD"
+resolved_reference = "a4139d9131cda9b26ad002715d5dedc1002663ae"
+
+[[package]]
 name = "pymdown-extensions"
 version = "9.5"
 description = "Extension pack for Python Markdown."
@@ -367,7 +382,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ba2ef9350ffbaf3051cf2a5d7008b955e2e942bcf88874595f9853eaaf735c44"
+content-hash = "5b4a0ffc36fb10b0733e2fa67c1d818e05ec314de7d2d2624203ed81deb31aa6"
 
 [metadata.files]
 Babel = [
@@ -488,6 +503,7 @@ Pygments = [
     {file = "Pygments-2.13.0-py3-none-any.whl", hash = "sha256:f643f331ab57ba3c9d89212ee4a2dabc6e94f117cf4eefde99a0574720d14c42"},
     {file = "Pygments-2.13.0.tar.gz", hash = "sha256:56a8508ae95f98e2b9bdf93a6be5ae3f7d8af858b43e02c5a2ff083726be40c1"},
 ]
+pygments-pg = []
 pymdown-extensions = [
     {file = "pymdown_extensions-9.5-py3-none-any.whl", hash = "sha256:ec141c0f4983755349f0c8710416348d1a13753976c028186ed14f190c8061c4"},
     {file = "pymdown_extensions-9.5.tar.gz", hash = "sha256:3ef2d998c0d5fa7eb09291926d90d69391283561cf6306f85cd588a5eb5befa0"},

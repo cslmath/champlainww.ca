@@ -48,7 +48,7 @@ $g = Compute("2 $y^3 + 4");                         # This won't work because U 
 $h = "\( 2 $y^3 + 4 \)";                            # U in a LaTeX math mode string works fine.
 ```
 
-## Beware `$a^2` in straight perl
+## Beware `#!pg $a^2` in straight perl
 
 ```pg
 $a = 3;
