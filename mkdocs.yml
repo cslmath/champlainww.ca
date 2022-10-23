@@ -27,7 +27,7 @@ nav:
 
     - Instructors:
         - instructors/instructors.md
-        - Create a homework set: instructors/WWcreateset.md
+        - Create a homework set: instructors/ins-createset.md
 #        - Import a classlist: instructors/WWimport-classlist.md
     - Authors:
         - authors/authors.md
@@ -40,7 +40,7 @@ nav:
         - about/about.md
         - News: about/about-news.md
         - WeBWorK: about/about-ww.md
-        - Students' quotes: about/about-quotes.md
+        - Students quotes: about/about-quotes.md
         - This site: about/about-docs.md
 
 ##########
@@ -139,3 +139,11 @@ plugins:
         exclude:
           - index.md
         enabled: true
+# Redirects
+    - redirects:
+        redirect_maps:
+            news.md: about/about-news.md
+            wwdoc/WWcannotlogin.md: students/students-still-cannot-log-in.md
+            wwdoc/WWstudenttips.md: students/students.md
+            wwdoc/createset.md: instructors/ins-createset.md
+            wwdoc/index.md: index.md

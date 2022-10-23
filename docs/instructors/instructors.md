@@ -7,5 +7,5 @@ date: 2022-09-18
 
 # Tips and instructions for instructors
 
-* (outdated) [Create a homework set](WWcreateset.md)
-* [Import a classlist](WWcreateset.md) 
+* (outdated) [Create a homework set](ins-createset.md)
+* [Import a classlist](ins-import-classlist.md) 
