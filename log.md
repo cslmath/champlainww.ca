@@ -115,3 +115,13 @@ Initialize project
 * configure in mkdocs.yml
     - old page locations point to new page locations
     - /webwork2/ raises a 404, but the 404 page now has a link to the courses
+
+## 2022-11-05
+
+* add Svetla to contacts on index.md
+* all page names changed to a `<section>-page-title.md` format
+* Add the new landing pages to the site news
+* hide all documentation authoring pages
+* write an importing classlist page `ins-import-classlist.md`
+* some links updated to open in a new page or tab
+* editing and cleanup of pages.

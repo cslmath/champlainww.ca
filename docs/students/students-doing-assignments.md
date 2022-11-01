@@ -22,7 +22,7 @@ There are two places in WeBWorK where you can create a PDF of an assignment:
 ## How do I see the correct answer?
 
 After the answer date, you may view the answer to a problem by
-checking the "Show Correct Answer" box and then checking your
+checking the _"Show Correct Answer"_ box and then checking your
 answer, or by printing your assignment (downloading a hard copy)
 with answers.
 

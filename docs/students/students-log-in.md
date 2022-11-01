@@ -7,8 +7,9 @@ authors:
 
 ## How do I log in?  
 
-To log into WebWorK, go to [https://webwork.champlainww.ca/webwork2](https://webwork.champlainww.ca/webwork2/),
-click **Courses**, and finally choose your course from the list.
+To log into WebWorK, go to
+[https://webwork.champlainww.ca/webwork2](https://webwork.champlainww.ca/webwork2/){: target='_blank'},
+and choose your course from the list.
 
 - Your **Username** is your seven-digit student number.
 - Your initial **Password** is your seven-digit student number.

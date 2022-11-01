@@ -7,13 +7,6 @@ tags:
     - authors
 ---
 
-# Notes for Problem Authors
-
-## WeBWorK Problem Authoring
+# WeBWorK Problem Authoring
 
 * [Gotchas](author-tips-gotchas.md)
-
-## Documentation Authoring
-
-* [mkdocs vs pelican](mkdocs-vs-pelican.md)
-* [mkdocs](mkdocs.md)

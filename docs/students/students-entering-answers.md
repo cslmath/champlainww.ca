@@ -18,17 +18,16 @@ Enter `pi` for the number $\pi$ in WeBWorK.
 
 ## WeBWorK says my answer is incorrect but I can't see what is wrong. What can I try?
 
-- Use the Preview button to see what WeBWorK understands that you have entered.
+- Use the Preview button to see that WeBWorK understands what you have entered.
 - See if there are any ways to simplify your answer.
 For example, simplify $e^0$ to 1, simplify $1^{5/2}$ to 1,
 simplify $\sin\pi$ to 0, simplify $\cos(\pi)$ to -1, and so on.
 - Do you expect your answer to be positive or negative?
-- Use the Preview button.
 - Check for bracket errors, especially with negative numbers.
 For example, `(-3)^2` is not the same as `-3^2`.
 - Check how you are entering exponents.
 For example, `e^3^x` is not the same as `e^(3x)`.
-- Check that you are using the correct brackets for intervals (see below).
+- Check that you are using the correct brackets for intervals (see [below](#how-do-i-enter-intervals-in-webwork)).
 - Check that you are using a dot for a decimal point and not a comma.
 
 ## How many decimal places do I need to have my answer scored correctly?
@@ -48,10 +47,10 @@ the text scrolls to the left as you continue to type characters.
 
 ## How do I enter intervals in WeBWorK?
 
-Use a round bracket, that is, "(" or ")", if the endpoint of the interval is not included.
-Use a square bracket, that is, "[" or "]", if the endpoint of the interval is included.
+Use a round bracket, that is, "`(`" or "`)`", if the endpoint of the interval is not included.
+Use a square bracket, that is, "`[`" or "`]`", if the endpoint of the interval is included.
 For example, enter `(-4,3)` to indicate the interval $-4<x<3$.
-Note: WeBWorK will not accept `]-4,3[` as a correct answer for that interval.
+WeBWorK will not accept `]-4,3[` as a correct answer for that interval.
 
 ## Do I use a comma or a dot for the decimal point?
 

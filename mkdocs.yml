@@ -27,15 +27,12 @@ nav:
 
     - Instructors:
         - instructors/instructors.md
-        - Create a homework set: instructors/ins-createset.md
-#        - Import a classlist: instructors/WWimport-classlist.md
+        - Create a homework set: instructors/ins-create-set.md
+        - Import a classlist: instructors/ins-import-classlist.md
     - Authors:
         - authors/authors.md
-        - WeBWorK authoring:
-            - Gotchas: authors/author-tips-gotchas.md
-        - Documentation authoring:
-            - MkDocs vs Pelican: authors/mkdocs-vs-pelican.md
-            - MkDocs: authors/mkdocs.md
+        - Gotchas: authors/author-tips-gotchas.md
+
     - About:
         - about/about.md
         - News: about/about-news.md
@@ -145,5 +142,5 @@ plugins:
             news.md: about/about-news.md
             wwdoc/WWcannotlogin.md: students/students-still-cannot-log-in.md
             wwdoc/WWstudenttips.md: students/students.md
-            wwdoc/createset.md: instructors/ins-createset.md
+            wwdoc/createset.md: instructors/ins-create-set.md
             wwdoc/index.md: index.md
