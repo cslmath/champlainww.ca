@@ -125,3 +125,12 @@ Initialize project
 * write an importing classlist page `ins-import-classlist.md`
 * some links updated to open in a new page or tab
 * editing and cleanup of pages.
+
+## 2022-11-05 - Cutover
+
+* tweak news
+* update all links from `docs.champlainww.ca` to `champlainww.ca`
+* Write redirects into apache config on `webwork.champlainww.ca`
+* update github configuration
+* update dns entries to point to github pages
+* cutover complete

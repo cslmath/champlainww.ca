@@ -106,8 +106,8 @@ authors:
 - [x] Custom 404 page
 - [x] WeBWorK icon
 - [x] WW favicon
-- [ ] Configuration [options at MkDocs](https://www.mkdocs.org/user-guide/configuration/)
-- [ ] and Material for MkDocs
+- [x] Configuration [options at MkDocs](https://www.mkdocs.org/user-guide/configuration/)
+- [x] and Material for MkDocs
 - [ ] How to syntax highlight pg code
     * [ ] For now, how to alias `pg` as `perl`
 - [ ] Set up tags in config
