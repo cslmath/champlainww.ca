@@ -3,7 +3,7 @@
 
 site_name: Champlain Saint-Lambert WeBWorK
 site_url: https://champlainww.ca
-site_description: Landing pages and documentation for champlainww.ca
+site_description: Landing pages and documentation for WeBWorK at Champlain College Saint-Lambert
 site_author: Malcolm Harper
 
 repo_url: https://github.com/cslmath/champlainww.ca
@@ -57,6 +57,9 @@ theme:
         - navigation.indexes
 #        - toc.integrate             # incompatible with navigation.sections
         - announce.dismiss          # click away the announcement bar https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/#mark-as-read
+        - search.suggest            # Experimental https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
+        - search.highlight
+
     palette: 
         - media: "(prefers-color-scheme: light"
  #         scheme: default
@@ -85,7 +88,7 @@ extra_javascript:
     - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
-    version: 0.0.1
+    version: 1.0.0
 
 ##########
 # Preview controls
@@ -144,3 +147,16 @@ plugins:
             wwdoc/WWstudenttips.md: students/students.md
             wwdoc/createset.md: instructors/ins-create-set.md
             wwdoc/index.md: index.md
+# Minify
+    - minify:
+        minify_html: false
+        minify_js: true
+        minify_css: true
+        htmlmin_opts:
+            remove_comments: true
+        js_files:
+            - javascripts/mathjax.js
+        css_files:
+            - stylesheets/mathjax.css
+            - stylesheets/banner.css
+            - stylesheets/champlain.css
