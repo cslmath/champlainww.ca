@@ -107,7 +107,7 @@
               </button>
             
             
-    <a href="/about/about-news.html">The Champlain WeBWorK system has been upgraded to version 2.17</a>
+    <a href="/about/about-news.html">Generation of these pages have been moved to the MkDocs system.</a>
 
           </div>
           
@@ -563,6 +563,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_2">
@@ -597,8 +599,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../instructors/ins-createset.html" class="md-nav__link">
+      <a href="../instructors/ins-create-set.html" class="md-nav__link">
         Create a homework set
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../instructors/ins-import-classlist.html" class="md-nav__link">
+        Import a classlist
       </a>
     </li>
   
@@ -626,8 +642,6 @@
       
       
       
-        
-          
         
           
         
@@ -666,114 +680,10 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
-      
-      
-      
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_3_2">
-          WeBWorK authoring
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="WeBWorK authoring" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_2">
-          <span class="md-nav__icon md-icon"></span>
-          WeBWorK authoring
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
       <a href="../authors/author-tips-gotchas.html" class="md-nav__link">
         Gotchas
       </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
-      
-      
-      
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_3_3">
-          Documentation authoring
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Documentation authoring" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_3">
-          <span class="md-nav__icon md-icon"></span>
-          Documentation authoring
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../authors/mkdocs-vs-pelican.html" class="md-nav__link">
-        MkDocs vs Pelican
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../authors/mkdocs.html" class="md-nav__link">
-        MkDocs
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -1001,17 +911,16 @@ The cube root of 7 is then <code>7^(1/3)</code>.</p>
 <p>Enter <code>pi</code> for the number <span class="arithmatex">\(\pi\)</span> in WeBWorK.</p>
 <h2 id="webwork-says-my-answer-is-incorrect-but-i-cant-see-what-is-wrong-what-can-i-try">WeBWorK says my answer is incorrect but I can&rsquo;t see what is wrong. What can I try?</h2>
 <ul>
-<li>Use the Preview button to see what WeBWorK understands that you have entered.</li>
+<li>Use the Preview button to see that WeBWorK understands what you have entered.</li>
 <li>See if there are any ways to simplify your answer.
 For example, simplify <span class="arithmatex">\(e^0\)</span> to 1, simplify <span class="arithmatex">\(1^{5/2}\)</span> to 1,
 simplify <span class="arithmatex">\(\sin\pi\)</span> to 0, simplify <span class="arithmatex">\(\cos(\pi)\)</span> to -1, and so on.</li>
 <li>Do you expect your answer to be positive or negative?</li>
-<li>Use the Preview button.</li>
 <li>Check for bracket errors, especially with negative numbers.
 For example, <code>(-3)^2</code> is not the same as <code>-3^2</code>.</li>
 <li>Check how you are entering exponents.
 For example, <code>e^3^x</code> is not the same as <code>e^(3x)</code>.</li>
-<li>Check that you are using the correct brackets for intervals (see below).</li>
+<li>Check that you are using the correct brackets for intervals (see <a href="#how-do-i-enter-intervals-in-webwork">below</a>).</li>
 <li>Check that you are using a dot for a decimal point and not a comma.</li>
 </ul>
 <h2 id="how-many-decimal-places-do-i-need-to-have-my-answer-scored-correctly">How many decimal places do I need to have my answer scored correctly?</h2>
@@ -1026,10 +935,10 @@ even if the box size on the screen is smaller.
 When you enter a long answer in a short answer box,
 the text scrolls to the left as you continue to type characters.</p>
 <h2 id="how-do-i-enter-intervals-in-webwork">How do I enter intervals in WeBWorK?</h2>
-<p>Use a round bracket, that is, &ldquo;(&rdquo; or &ldquo;)&rdquo;, if the endpoint of the interval is not included.
-Use a square bracket, that is, &ldquo;[&rdquo; or &ldquo;]&rdquo;, if the endpoint of the interval is included.
+<p>Use a round bracket, that is, &ldquo;<code>(</code>&rdquo; or &ldquo;<code>)</code>&rdquo;, if the endpoint of the interval is not included.
+Use a square bracket, that is, &ldquo;<code>[</code>&rdquo; or &ldquo;<code>]</code>&rdquo;, if the endpoint of the interval is included.
 For example, enter <code>(-4,3)</code> to indicate the interval <span class="arithmatex">\(-4&lt;x&lt;3\)</span>.
-Note: WeBWorK will not accept <code>]-4,3[</code> as a correct answer for that interval.</p>
+WeBWorK will not accept <code>]-4,3[</code> as a correct answer for that interval.</p>
 <h2 id="do-i-use-a-comma-or-a-dot-for-the-decimal-point">Do I use a comma or a dot for the decimal point?</h2>
 <p>Use a dot for the decimal point.
 For example, enter 0.625 not 0,625.</p>
@@ -1039,7 +948,7 @@ For example, enter 0.625 not 0,625.</p>
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-10-23T20:18:56+02:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-10-23</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-11-01T17:51:40+01:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-11-01</span>
       
     
   </small>
