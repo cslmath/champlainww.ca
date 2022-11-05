@@ -21,8 +21,17 @@ date: 2009-02-01
 
 ??? info "August 18, 2021 - New Host, upgrade to 2.16"
 
+    The WeBWorK version is now 2.16.
+    More details can be found in the [release notes](https://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.16).
+
+??? info "August 12, 2021 - New host at Digital Ocean"
+
     The Champlain WeBWorK system has been moved to a new host located in Toronto, Canada.
-    The WeBWorK version is now 2.16. More details can be found in the [release notes](https://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.16).
+
+??? info "Summer 2019 - Upgrade to 2.14"
+
+    The WeBWorK version is updated to 2.14.
+    More details can be found in the [release notes](http://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.14).
 
 ??? info "August 16, 2018 - New Server, upgrade to 2.13"
 
@@ -30,15 +39,44 @@ date: 2009-02-01
     The WeBWorK version is now 2.13.
     More details can be found in the [release notes](http://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.13).
 
+??? info "January 2015 - New website"
+
+    The website (landing and documentation pages) has a total redesign.
+    The new design is by [Ruuka](https://ruuka.net/), who was then a Graphics Communication student here at Champlain Saint-Lambert.
+
+??? info "February 21, 2014 - New Server, upgrade to 2.8"
+
+    The system is moved to a new server.
+    The Champlain WeBWorK system is updated to version 2.8.
+    More details can be found in the [release notes](http://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.8).
+
 ??? info "August 28, 2013 - Upgrade to 2.7"
 
     The Champlain WeBWorK system is updated to version 2.7.
     There is a new look and also a number of new features.
     More details can be found in the [release notes](http://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.7).
 
+??? info "January 15, 2013 - Operating system upgrade"
+
+    The host operating system is upgraded to Ubuntu Server 12.04 LTS
+
+??? info "January 21, 2012 - Upgrade to 2.5.0"
+
+    The Champlain WeBWorK system is updated to version 2.5.0.
+    More details can be found in the [release notes](http://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.5.0).
+
 ??? info "August 24, 2011 - New Server, upgrade to 2.4.9"
 
     The Fall semester starts with WeBWorK updated to version 2.4.9 and installed on a new server.
+
+??? info "January 20, 2010 - Upgrade to 2.4.7"
+
+    The WeBWorK version is now 2.4.7.
+    More details can be found in the [release notes](http://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.4.7).
+
+?? info "November 15, 2009 - Custom landing pages"
+
+    The first version of our landing page and documentation site goes live, design by Wendy Offet.
 
 ??? info "August 25, 2009 - Full Adoption"
 
