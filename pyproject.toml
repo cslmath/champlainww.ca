@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "mkdocs_sandbox"
-version = "0.1.0"
-description = "Experimentation and testing mkdocs"
-authors = ["Malcolm Harper <ve2ddz@ve2ddz.ca>"]
+name = "champlainww.ca"
+version = "1.0.0"
+description = "Source for the champlainww.ca landing and documentation pages."
+authors = ["Malcolm Harper <mharper@crcmail.net>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
