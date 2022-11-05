@@ -10,9 +10,9 @@ date: 2009-02-01
 ???+ info "November 5, 2022 - Website Refresh"
 
     The landing pages and documentation site (these pages) have been moved to a new system.
-    They are now prepared using [MkDocs](https://www.mkdocs.org/)
-    and themed using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
-    They are hosted on [GitHub](https://github.com/cslmath/champlainww.ca).
+    They are now prepared using [MkDocs](https://www.mkdocs.org/),
+     themed using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and
+     hosted on [GitHub](https://github.com/cslmath/champlainww.ca).
 
 ??? info "August 15, 2022 - Upgrade to 2.17"
 
@@ -74,7 +74,7 @@ date: 2009-02-01
     The WeBWorK version is now 2.4.7.
     More details can be found in the [release notes](http://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.4.7).
 
-?? info "November 15, 2009 - Custom landing pages"
+??? info "November 15, 2009 - Custom landing pages"
 
     The first version of our landing page and documentation site goes live, design by Wendy Offet.
 
