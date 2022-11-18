@@ -79,15 +79,15 @@ authors:
 - [ ] Add page content from WW Flash Talks Ped Day 2022-11-17
     * [ ] Rémi's Randomization - `author-tips-randomization.md`
         - [x] Permision
-        - [ ] Page
+        - [x] Page
         - [ ] Review
-    * [ ] Peter's New seed for quizzes - `ins-quiz-seed.md`
+    * [ ] Peter's New seed for quizzes - `ins-quiz-tips.md`
         - [x] Permision
-        - [ ] Page
+        - [x] Page
         - [ ] Review
     * [ ] Michèle Custom math achievements - `ins-math-achievements.md`
         - [x] Permision
-        - [ ] Page
+        - [x] Page
         - [ ] Review
     * [ ] Malcolm's MathQuill - tips and tricks - `student-mathquill.md` and `ins-mathquill.md`
         - [ ] Page
