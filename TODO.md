@@ -71,10 +71,27 @@ authors:
     * started 2022-09-19
 - [x] Bring `ww-author-tips-gotchas.md` in from current staging branch
 - [x] Add Svetla to contacts on index.md
-    * [ ] and in `champlain_site_info.txt`
+    * [x] and in `champlain_site_info.txt`
 - [x] Add new landing site to news
     * [x] `about/about-news.md`
     * [x] `overrides/main.html`
+- [ ] Rewrite `instructors/ins-create-set.md`
+- [ ] Add page content from WW Flash Talks Ped Day 2022-11-17
+    * [ ] Rémi's Randomization - `author-tips-randomization.md`
+        - [x] Permision
+        - [ ] Page
+        - [ ] Review
+    * [ ] Peter's New seed for quizzes - `ins-quiz-seed.md`
+        - [x] Permision
+        - [ ] Page
+        - [ ] Review
+    * [ ] Michèle Custom math achievements - `ins-math-achievements.md`
+        - [x] Permision
+        - [ ] Page
+        - [ ] Review
+    * [ ] Malcolm's MathQuill - tips and tricks - `student-mathquill.md` and `ins-mathquill.md`
+        - [ ] Page
+        - [ ] Review
 
 ## Decisions
 
@@ -88,6 +105,8 @@ authors:
 - [x] `<topic>/index.md` or `<topic>/<topic>.md`
     * `<topic>/<topic>.md`
 - [ ] Directory links or not (see [MkDocs docs](https://www.mkdocs.org/user-guide/configuration/#use_directory_urls) and material??)
+- [ ] Standardize icons for instructions: _radio button_, _button choice_, _check box_, etc
+    * and document them in the repo wiki
 
 ## New Content
 
