@@ -16,8 +16,9 @@ Date: 2009-04-07
 Select Hmwk Sets Editor (under Instructor Tools in the Main Menu on the left)
 
 1. In the top list of choices select the radio button :material-radiobox-marked:Create a new set named:
-2. Give your new set a name of the shape yourname-set-1.
-3. Leave the default as a new empty set selected and press the ++Take Action!++ button. WeBWorK reports the success (or failure) of the action at the top of the page (just under the header Hmwk Sets Editor).
+2. Give your new set a name.
+    * Some teachers like to prefix with set name with a sequence number, or some other identifier: _ASN_ or _Review_ etc.
+3. Leave the default as a new empty set selected and press the :material-button-cursor: Take Action! button. WeBWorK reports the success (or failure) of the action at the top of the page (just under the header Hmwk Sets Editor).
 4. Your new set will show up in the list of homework sets at the bottom of the page. It has zero questions and is assigned to zero users.
 
 ## Add problems to your set
