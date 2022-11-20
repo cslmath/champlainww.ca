@@ -9,7 +9,7 @@ tags:
     - math achievements
 ---
 
-# Custom Math Achievemnts
+# Custom Math Achievements
 
 Math Achievements (or Mathchievements) are an optional WeBWorK module.
 !!! quote
@@ -27,7 +27,15 @@ Math Achievements (or Mathchievements) are an optional WeBWorK module.
     Instructors can modify and administer achievements by using the Achievement Editor page.  
     - [Achievements - WeBWorK Wiki][wiki]
 
-This page is an introduction to writing custom Math Achievements
+This page is an introduction to writing custom Math Achievements.
+
+!!! warning
+
+    It is strongly suggested that you initially assign achievements to _no users_ and only assign achievements
+    to the students once all of your customizations and configurations are done.
+
+    Checking and tracking achievements can be resource intensive, be sparing with the achievemnts
+    that you assign to your students.
 
 ## Enable Math Achievements
 

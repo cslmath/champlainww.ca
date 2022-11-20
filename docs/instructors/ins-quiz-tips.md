@@ -22,6 +22,6 @@ In **Instructor Tools**:
 
 * Under _Users_, :material-list-box: click to highlight the student
 * :material-button-cursor: Select _View/Edit all set dates for one **user**_
-* :fontawesome-solid-arrow-pointer: Click the title and version of the quiz and with the issue
+* :fontawesome-solid-arrow-pointer: Click the title and version of the quiz with the issue
 * This will take you to a screen where you can edit the seeds for this user on this quiz version.
 * :material-button-cursor: _Save Changes_ when you are done.
