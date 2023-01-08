@@ -24,15 +24,16 @@ nav:
         - I still cannot log in: students/students-still-cannot-log-in.md
         - Doing assignments: students/students-doing-assignments.md
         - Entering answers: students/students-entering-answers.md
-
     - Instructors:
         - instructors/instructors.md
-        - Create a homework set: instructors/ins-create-set.md
         - Import a classlist: instructors/ins-import-classlist.md
+        - Create a homework set: instructors/ins-create-set.md
+        - Math achievements: instructors\ins-math-achievements.md
+        - Quizzes: instructors/ins-quiz-tips.md
     - Authors:
         - authors/authors.md
+        - Problem randomization: authors/author-randomization.md
         - Gotchas: authors/author-tips-gotchas.md
-
     - About:
         - about/about.md
         - News: about/about-news.md

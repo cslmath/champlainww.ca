@@ -8,5 +8,7 @@ tags:
 ---
 
 # WeBWorK Problem Authoring
-
-* [Gotchas](author-tips-gotchas.md)
+* [Randomization techniques](author-randomization.md)  
+    Different approaches for randomizing problem parameters.
+* [Gotchas](author-tips-gotchas.md)  
+    Some things to watch out for when authoring WeBWorK problems.

@@ -11,7 +11,7 @@ tags:
 
 # Tips for WeBWorK Authors: Gotchas
 
-Some things to watch out for when authoring WeBWorK problems:
+Some things to watch out for when authoring WeBWorK problems.
 
 ## Perl variable with a negative value used in a (perl) formula
 
