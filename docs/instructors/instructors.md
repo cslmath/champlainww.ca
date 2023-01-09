@@ -15,3 +15,5 @@ date: 2022-09-18
     How-to create and customize math achievements.
 * [Quiz tips](ins-quiz-tips.md)  
     Tips and tricks for quizzes.
+* [Diagnostic quizzes for calculus and pre-calculus](ins-diagnostic-quizzes.md)  
+    How-to use configure and assign the diagnostic quizzes for pre-calculus and for calculus 1.

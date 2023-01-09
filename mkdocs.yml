@@ -30,6 +30,7 @@ nav:
         - Create a homework set: instructors/ins-create-set.md
         - Math achievements: instructors\ins-math-achievements.md
         - Quizzes: instructors/ins-quiz-tips.md
+        - Diagnostic quizzes: instructors/ins-diagnostic-quizzes.md
     - Authors:
         - authors/authors.md
         - Problem randomization: authors/author-randomization.md
