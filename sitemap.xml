@@ -2,112 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://champlainww.ca/index.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/about/about-docs.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/about/about-news.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/about/about-quotes.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/about/about-ww.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/about/about.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/authors/author-randomization.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/authors/author-tips-gotchas.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/authors/authors.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/authors/mkdocs-vs-pelican.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/authors/mkdocs.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/instructors/ins-create-set.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/instructors/ins-diagnostic-quizzes.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://champlainww.ca/instructors/ins-email-whitelist.html</loc>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/instructors/ins-import-classlist.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/instructors/ins-math-achievements.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/instructors/ins-quiz-tips.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/instructors/instructors.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/students/students-doing-assignments.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/students/students-entering-answers.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/students/students-log-in.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/students/students-still-cannot-log-in.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://champlainww.ca/students/students.html</loc>
-         <lastmod>2023-01-09</lastmod>
+         <lastmod>2023-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
