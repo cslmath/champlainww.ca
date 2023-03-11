@@ -13,8 +13,8 @@ tags:
 
 ## About the Quizzes
 
-Each Quiz contains five questions that are drawn randomly from a larger grouping set of ten or more questions.
-Each question is one of three types: (1) Multiple Choice, (2) Multiple Select, or (3) True or false.
+Each quiz contains five questions that are drawn randomly from a larger grouping set of ten or more questions.
+Each question is one of three types: (1) Multiple Choice, (2) Multiple Select, or (3) True or False.
 
 ### Examples of the three types of questions
 
@@ -22,19 +22,19 @@ Each question is one of three types: (1) Multiple Choice, (2) Multiple Select, o
 
 ![Multiple choice quiz question](ins-diagnostic-quizzes/example-multiplechoice.png)
 
-Exactly one answer is correct. The choice order changes, but “None of the above” is always last.
+Exactly one answer is correct. The choice order changes, but _“None of the above”_ is always last.
 
 #### Multiple Select
 
 ![Multiple select quiz question](ins-diagnostic-quizzes/example-multipleselect.png)
 
-At least one answer is correct. The choice order changes, but “None of the above” is always last.
+At least one answer is correct. The choice order changes, but _“None of the above”_ is always last.
 
 #### True or False
 
 ![True or false quiz question](ins-diagnostic-quizzes/example-truefalse.png)
 
-### Use Diagnostic Quizzes Out of the Box
+## Use Diagnostic Quizzes out of the box
 
 Each Quiz contains five questions that are drawn randomly
 from a larger grouping set of ten or more questions.
@@ -47,7 +47,7 @@ Each Quiz is a timed quiz to be completed in 15 minutes.
 
 ### Example
 
-To use _Quiz 16 Chain Rule with Trig_ (Note: the grouping set is topic-diffrules-chain-withtrig)
+To use _Quiz 16 Chain Rule with Trig_ (Note: the grouping set is `topic-diffrules-chain-withtrig`)
 
 !!! info
 
@@ -56,22 +56,22 @@ To use _Quiz 16 Chain Rule with Trig_ (Note: the grouping set is topic-diffrules
     _three_ types of files.  The problem files live in the library as usual, but to use these quizzes,
     you will have to import both the quiz set _and_ one or more _grouping sets_ into your WeBWorK course.
 
-1. Import the Quiz and its Grouping Set  
+1. Import the quiz and its grouping set  
     Hmwk Sets Editor :material-arrow-right: Import tab:
     * Import how many sets? Multiple sets
     * Import from where?  
     calculus-1-diagnostic-quiz/setQuiz_16_Chain_Rule_with_Trig.def  
     calculus-1-diagnostic-quiz/settopic-diffrules-chain-withtrig.def
-1. Assign the Quiz and unassign the Grouping Set  
+1. Assign the quiz and unassign the grouping set  
     Hmwk Sets Editor :material-arrow-right: Set List :material-arrow-right: Edit Assigned Users column (click on the ratio, e.g., 1/24 if there are 24 users):
     * Quiz 16 Chain Rule with Trig :material-arrow-right: Assign to students  (e.g., 24/24 for all users)
     * topic-diffrules-chain-withtrig :material-arrow-right: Assign to no one (e.g., 0/24 for no users)
-1. Quiz Open and Close Dates   
+1. Set the quiz Open and Close Dates  
 Hmwk Sets Editor :material-arrow-right: Set List :material-arrow-right: Click on the pencil beside the Quiz, e.g. Quiz 16 Chain Rule with Trig :material-arrow-right: Modify dates:  
     * Opens:
     * Closes:
     * Answers Available:
-1. Quiz Default Settings
+1. Verify the quiz Default Settings
 
     | Setting | Default |
     |---|---|
@@ -85,13 +85,15 @@ Hmwk Sets Editor :material-arrow-right: Set List :material-arrow-right: Click on
     | Show Scores on Finished Assignments? |  Yes |
     | Show Problems on Finished Tests? |  Yes |
 
-### Use or Modify a Specific Diagnostic Quiz Question
+## Use or modify a specific diagnostic quiz question
 
-### Example: use a Chain Rule question with trig
+### Example: Use a Chain Rule with trigonometry question
 
-All the questions on this topic are in the grouping set called topic-diffrules-chain-withtrig. Either import the grouping set through Hmwk Sets Editor, or view the grouping set definition file through the Library Browser. The Library Browser has the advantage of easily viewing different randomizations of each question.
+All the questions on this topic are in the grouping set called `topic-diffrules-chain-withtrig`.
+Either import the grouping set in the Hmwk Sets Editor, or view the grouping set definition file through the Library Browser.
+The Library Browser has the advantage of easily viewing different randomizations of each question.
 
-#### Option 1 - Import the Grouping Set
+#### Option 1 - Import the grouping set
 
 Hmwk Sets Editor :material-arrow-right: Import tab:  
 
@@ -99,29 +101,29 @@ Hmwk Sets Editor :material-arrow-right: Import tab:
 * Import from where?  
     calculus-1-diagnostic-quiz/settopic-diffrules-chain-withtrig.def
 
-#### Option 2 - View the Set Definition File
+#### Option 2 - View the set definition file
 
 * Library Browser :material-arrow-right: Set Definition Files
 * Browse from: Select a Set Definition File  :material-arrow-right:  from the drop-down menu choose  
     calculus-1-diagnostic-quiz/settopic-diffrules-chain-withtrig.def
 
-### Randomization - Be Aware
+## Randomization - Be Aware
 
 Before using a specific question, view several versions of it to see how it changes, or view the code itself.
-Beyond the randomization of coefficients, words or complete phrases could change, as well as the function that displays. 
+Beyond the randomization of coefficients, words or complete phrases could change, as well as the function that is displayed.
 
 !!! caution
     Say you want to assign a Chain Rule question specifically with the arctangent function,
     just be aware that the function displayed could change to the arccosine or the tangent function for some students.
 
-### Report Bugs
+## Report Bugs
 
 If you notice an error or any unexpected behaviour in a question or a quiz,
 please report it to:  Michèle Titcombe, Svetla Vassileva, or Malcolm Harper.
 
 ## Appendices
 
-### Example: One version of Calculus 1 Quiz 16 Chain Rule with Trig
+### Example: One version of Calculus 1 - Quiz 16 Chain Rule with Trig
 
 ![Quiz 16 version 1](ins-diagnostic-quizzes/Quiz16version1.png)
 
