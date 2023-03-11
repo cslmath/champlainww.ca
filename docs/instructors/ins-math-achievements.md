@@ -13,6 +13,7 @@ tags:
 
 Math Achievements (or Mathchievements) are an optional WeBWorK module.
 !!! quote
+
     Achievements (or Mathchievements) are gamification features designed
     to reward students for solving homework problems and for practicing good WeBWorK behavior.
     In a nutshell, students can earn achievements by meeting preset goals.
