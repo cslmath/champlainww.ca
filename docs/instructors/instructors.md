@@ -17,3 +17,5 @@ date: 2022-09-18
     Tips and tricks for quizzes.
 * [Diagnostic quizzes for calculus and pre-calculus](ins-diagnostic-quizzes.md)  
     How-to use configure and assign the diagnostic quizzes for pre-calculus and for calculus 1.
+* [Email configuration](ins-email-whitelist.md)  
+    Whitelist WeBWorK email in Office 365.

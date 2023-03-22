@@ -23,31 +23,31 @@ To avoid, as much as possible, the classification of WeBWorK server emails as sp
 
 ## Whitelist the WeBWorK email server
 
-Add `mg.champlainww.ca` as a _safe domain_ in your Office 365 Junk email settings.
+Follow the following steps to add `mg.champlainww.ca` as a _safe domain_ in your Office 365 Junk email settings.
 
 1. Go to the _Junk email_ settings on the Office 365 website.
     - You can either go directly to
     [`outlook.office.com/mail/options/mail/junkEmail`](https://outlook.office.com/mail/options/mail/junkEmail)
     logging in if necessary,
     - or from the usual mail view:
-        * Click the three dots (More options),
-        * Choose _Rules_ :material-arrow-right: _Manage rules_,
-        * Then select _Junk email_ from the _Mail_ menu.
-1. _Add_ a new entry under _Safe senders and domains_ with the contents `mg.champlainww.ca`
-    - Click _Add_, type `mg.champlainww.ca`, then enter :material-keyboard-return:
-1. (Optional) Add a second new entry with the contents `champlainww.ca`
-1. Scroll down to _Save_ your changes
+        * click the three dots (More options),
+        * choose _Rules_ :material-arrow-right: _Manage rules_,
+        * then select _Junk email_ from the _Mail_ menu.
+1. _Add_ a new entry under _Safe senders and domains_ with the contents `mg.champlainww.ca`.
+    - Click _Add_, type `mg.champlainww.ca`, then enter :material-keyboard-return:.
+1. (Optional) Add a second new entry with the contents `champlainww.ca`.
+1. Scroll down to _Save_ your changes.
 
 ## Check your junk email directory regularly
 
 I suggest that you check your Office 365 Junk email folder at least once a week (more often is better).
 Even if you use another email client, if the problem is that Office 365 is labelling WeBWorK email as spam,
-then we have to train Office 365 otherwise.
+then we have to train Office 365 that WeBWorK email is not spam.
 
 Check the _Junk Email_ folder in your account.
-If there is email there that shouldn't be, tag it as ham (not spam).
+If there is email in taht directory that shouldn't be, tag it as ham (not spam).
 There are a few ways to do this:
 
-- Right-click the email and _Report_ :material-arrow-right: _Not junk_
+- Right-click the email and _Report_ :material-arrow-right: _Not junk_,
 - or click _It's not junk_ at the top of the email when it is displayed,
 - or use the _Report_ drop-down in the menu bar.
