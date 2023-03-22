@@ -256,13 +256,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="instructors.html" class="md-tabs__link">
+      <a href="instructors.html" class="md-tabs__link md-tabs__link--active">
         Instructors
       </a>
     </li>
@@ -466,15 +468,19 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
+        
+          
         
           
         
@@ -581,6 +587,66 @@
       <a href="ins-diagnostic-quizzes.html" class="md-nav__link">
         Diagnostic quizzes
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Email configuration
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="ins-email-whitelist.html" class="md-nav__link md-nav__link--active">
+        Email configuration
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#whitelist-the-webwork-email-server" class="md-nav__link">
+    Whitelist the WeBWorK email server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-your-junk-email-directory-regularly" class="md-nav__link">
+    Check your junk email directory regularly
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -857,36 +923,36 @@ Since WeBWorK, by its nature, sends email to instructors <em>on behalf of</em> s
 <li>Train Office 365 that any false positives are not spam.</li>
 </ol>
 <h2 id="whitelist-the-webwork-email-server">Whitelist the WeBWorK email server</h2>
-<p>Add <code>mg.champlainww.ca</code> as a <em>safe domain</em> in your Office 365 Junk email settings.</p>
+<p>Follow the following steps to add <code>mg.champlainww.ca</code> as a <em>safe domain</em> in your Office 365 Junk email settings.</p>
 <ol>
 <li>Go to the <em>Junk email</em> settings on the Office 365 website.<ul>
 <li>You can either go directly to
 <a href="https://outlook.office.com/mail/options/mail/junkEmail"><code>outlook.office.com/mail/options/mail/junkEmail</code></a>
 logging in if necessary,</li>
 <li>or from the usual mail view:<ul>
-<li>Click the three dots (More options),</li>
-<li>Choose <em>Rules</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> <em>Manage rules</em>,</li>
-<li>Then select <em>Junk email</em> from the <em>Mail</em> menu.</li>
+<li>click the three dots (More options),</li>
+<li>choose <em>Rules</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> <em>Manage rules</em>,</li>
+<li>then select <em>Junk email</em> from the <em>Mail</em> menu.</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><em>Add</em> a new entry under <em>Safe senders and domains</em> with the contents <code>mg.champlainww.ca</code><ul>
-<li>Click <em>Add</em>, type <code>mg.champlainww.ca</code>, then enter <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.42L5.83 13H21V7h-2Z"/></svg></span></li>
+<li><em>Add</em> a new entry under <em>Safe senders and domains</em> with the contents <code>mg.champlainww.ca</code>.<ul>
+<li>Click <em>Add</em>, type <code>mg.champlainww.ca</code>, then enter <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.42L5.83 13H21V7h-2Z"/></svg></span>.</li>
 </ul>
 </li>
-<li>(Optional) Add a second new entry with the contents <code>champlainww.ca</code></li>
-<li>Scroll down to <em>Save</em> your changes</li>
+<li>(Optional) Add a second new entry with the contents <code>champlainww.ca</code>.</li>
+<li>Scroll down to <em>Save</em> your changes.</li>
 </ol>
 <h2 id="check-your-junk-email-directory-regularly">Check your junk email directory regularly</h2>
 <p>I suggest that you check your Office 365 Junk email folder at least once a week (more often is better).
 Even if you use another email client, if the problem is that Office 365 is labelling WeBWorK email as spam,
-then we have to train Office 365 otherwise.</p>
+then we have to train Office 365 that WeBWorK email is not spam.</p>
 <p>Check the <em>Junk Email</em> folder in your account.
-If there is email there that shouldn&rsquo;t be, tag it as ham (not spam).
+If there is email in taht directory that shouldn&rsquo;t be, tag it as ham (not spam).
 There are a few ways to do this:</p>
 <ul>
-<li>Right-click the email and <em>Report</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> <em>Not junk</em></li>
+<li>Right-click the email and <em>Report</em> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span> <em>Not junk</em>,</li>
 <li>or click <em>It&rsquo;s not junk</em> at the top of the email when it is displayed,</li>
 <li>or use the <em>Report</em> drop-down in the menu bar.</li>
 </ul>
@@ -896,7 +962,7 @@ There are a few ways to do this:</p>
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-12T00:53:43+01:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-12</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-22T22:37:44+01:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-22</span>
       
     
   </small>
@@ -921,6 +987,42 @@ There are a few ways to do this:</p>
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="ins-diagnostic-quizzes.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Diagnostic quizzes" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Diagnostic quizzes
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../authors/authors.html" class="md-footer__link md-footer__link--next" aria-label="Next: Notes for Problem Authors" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Notes for Problem Authors
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
