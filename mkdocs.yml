@@ -31,6 +31,7 @@ nav:
         - Math achievements: instructors\ins-math-achievements.md
         - Quizzes: instructors/ins-quiz-tips.md
         - Diagnostic quizzes: instructors/ins-diagnostic-quizzes.md
+        - Email configuration: instructors/ins-email-whitelist.md
     - Authors:
         - authors/authors.md
         - Problem randomization: authors/author-randomization.md
