@@ -28,7 +28,10 @@ with answers.
 
 ## I'm sure my answer is correct, but it is scored as a wrong answer. What can I do?
 
-Talk to your teacher.
+It is possible that your answer is correct, but that the WeBWorK question expects more numerical accuracy.
+Try including more decimal places in your answer.
+
+If that doesn't work, talk to your teacher.
 
 ## What happens if I answer a question right the first time, and try it again later and get it wrong?
 

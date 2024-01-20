@@ -12,6 +12,9 @@ For example, the square root of two in WeBWorK is either `sqrt(2)` or `2^(1/2)`.
 For cube roots, use the exponent `1/3`.
 The cube root of 7 is then `7^(1/3)`.
 
+Remember to put parentheses around fractional exponents:
+`7^(1/3)` is **not** the same as `7^1/3`.
+
 ## How do I enter the number $\pi$ in my answer?
 
 Enter `pi` for the number $\pi$ in WeBWorK.
