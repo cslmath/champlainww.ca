@@ -148,4 +148,4 @@ Initialize project
 * Change Social Science course references to the new course codes
 * Some typos
 * Some minor updates
-
+* Add flash talks to news

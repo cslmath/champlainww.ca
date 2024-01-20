@@ -7,7 +7,20 @@ date: 2009-02-01
 
 # WeBWorK News
 
-???+ info "November 5, 2022 - Website Refresh"
+???+ info "December 4, 2023 - Winter 2024 Flash Talks"
+
+    This is an early announcement and call for potential speakers.
+
+    ## WeBWorK Flash Talks
+    
+    * 15 minutes each talk, 5 minutes questions
+    * Tentatively: **Friday, February 16, 2024** 3:30-4:30pm (in Zoom)
+
+    If you are interested in attending, or in presenting a flash talk,
+    or if you have a suggestion for a topic,
+    please let Michèle and Malcolm know.
+
+??? info "November 5, 2022 - Website Refresh"
 
     The landing pages and documentation site (these pages) have been moved to a new system.
     They are now prepared using [MkDocs](https://www.mkdocs.org/),
