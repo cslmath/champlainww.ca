@@ -930,9 +930,9 @@
 <h1 id="tips-for-webwork-authors-gotchas">Tips for WeBWorK Authors: Gotchas</h1>
 <p>Some things to watch out for when authoring WeBWorK problems.</p>
 <h2 id="perl-variable-with-a-negative-value-used-in-a-perl-formula">Perl variable with a negative value used in a (perl) formula</h2>
-<p>For example:  Suppose you have a variable <code>$a</code> that could take on negative values,
+<p>For example:  Suppose you have a variable <code class="highlight"><span class="nv">$a</span></code> that could take on negative values,
 and you use it in a calculation of another variable.
-Warning: <code>-$a</code> (without a space between the minus sign and the Perl variable <code>$a</code>) can be misinterpreted by perl.</p>
+Warning: <code class="highlight"><span class="o">-</span><span class="nv">$a</span></code> (without a space between the minus sign and the Perl variable <code class="highlight"><span class="nv">$a</span></code>) can be misinterpreted by perl.</p>
 <p>Here are some ways to fix the possible misinterpretation:  </p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">$a</span> <span class="o">=</span> <span class="n">random</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>  
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nv">$good1</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">-</span> <span class="nv">$a</span><span class="p">;</span>            <span class="c1"># Put a space before the variable  </span>
@@ -965,7 +965,7 @@ Warning: <code>-$a</code> (without a space between the minus sign and the Perl v
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-01-08T22:19:36+01:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-01-08</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-01-20T22:37:07+01:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-01-20</span>
       
     
   </small>
@@ -1032,7 +1032,7 @@ Warning: <code>-$a</code> (without a space between the minus sign and the Perl v
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      CC BY-SA &copy; 2009-2023 Champlain College Saint-Lambert WeBWorK
+      CC BY-SA &copy; 2009-2024 Champlain College Saint-Lambert WeBWorK
     </div>
   
   
