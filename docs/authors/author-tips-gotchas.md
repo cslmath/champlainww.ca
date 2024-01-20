@@ -15,9 +15,9 @@ Some things to watch out for when authoring WeBWorK problems.
 
 ## Perl variable with a negative value used in a (perl) formula
 
-For example:  Suppose you have a variable `$a` that could take on negative values,
+For example:  Suppose you have a variable `#!pg $a` that could take on negative values,
 and you use it in a calculation of another variable.
-Warning: `-$a` (without a space between the minus sign and the Perl variable `$a`) can be misinterpreted by perl.
+Warning: `#!pg -$a` (without a space between the minus sign and the Perl variable `#!pg $a`) can be misinterpreted by perl.
 
 Here are some ways to fix the possible misinterpretation:  
 

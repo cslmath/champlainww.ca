@@ -134,3 +134,18 @@ Initialize project
 * update github configuration
 * update dns entries to point to github pages
 * cutover complete
+
+## add missing entries
+
+## 2023-03-22
+
+* Add Email whitelist page and link into menu
+* Minor spelling and punctuation corrections.
+
+## 2023-01
+
+* Update copyright year
+* Change Social Science course references to the new course codes
+* Some typos
+* Some minor updates
+* Add flash talks to news

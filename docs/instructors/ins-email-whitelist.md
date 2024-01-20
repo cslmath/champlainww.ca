@@ -45,7 +45,7 @@ Even if you use another email client, if the problem is that Office 365 is label
 then we have to train Office 365 that WeBWorK email is not spam.
 
 Check the _Junk Email_ folder in your account.
-If there is email in taht directory that shouldn't be, tag it as ham (not spam).
+If there is email in that directory that shouldn't be, tag it as ham (not spam).
 There are a few ways to do this:
 
 - Right-click the email and _Report_ :material-arrow-right: _Not junk_,
