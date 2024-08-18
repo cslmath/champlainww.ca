@@ -7,7 +7,16 @@ date: 2009-02-01
 
 # WeBWorK News
 
-???+ info "December 4, 2023 - Winter 2024 Flash Talks"
+???+ info "August 18, 2024 - Upgrade to 2.18"
+
+    The Champlain WeBWorK system has been upgraded to version 2.18.
+    More details can be found in the [release notes](https://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.18).
+
+    **Note:** Currently the mail merge system is not working in the new system,
+    so instructors cannot send email to the entire class.
+    Students can still send individual emails to their teacher through WeBWorK.
+
+??? info "December 4, 2023 - Winter 2024 Flash Talks"
 
     This is an early announcement and call for potential speakers.
 

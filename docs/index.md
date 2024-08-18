@@ -17,6 +17,5 @@ If you still have questions, contact one of us.
 
 !!! question ":material-email-outline: Contacts"
 
-    Malcolm Harper [:material-email-outline: mharper@crcmail.net](mailto:mharper@crcmail.net)  
     Michèle Titcombe [:material-email-outline: mtitcombe@crcmail.net](mailto:mtitcombe@crcmail.net)  
     Svetla Vassileva [:material-email-outline: svassileva@crcmail.net](mailto:svassileva@crcmail.net)
