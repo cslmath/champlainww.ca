@@ -1,19 +1,27 @@
-[tool.poetry]
+[project]
 name = "champlainww.ca"
-version = "1.0.0"
 description = "Source for the champlainww.ca landing and documentation pages."
-authors = ["Malcolm Harper <mharper@crcmail.net>"]
+authors = [
+    {name = "Malcolm Harper", email = "mharper@crcmail.net"}
+]
+version = "1.0.0"
+requires-python = ">=3.8"
+dependencies = [
+    "mkdocs >=1.2.3",
+    "mkdocs-material >= 8.2.3",
+    "mkdocs-git-revision-date-localized-plugin >= 1.1.0",
+    "pygments-pg @ git+https://github.com/maharper/pygments-pg.git",
+    "mkdocs-redirects >= 1.2.0",
+    "mkdocs-minify-plugin >= 0.6.1"
+]
+
+[tool.poetry]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.8"
-mkdocs = "^1.2.3"
-mkdocs-material = "^8.2.3"
-mkdocs-git-revision-date-localized-plugin = "^1.1.0"
-pygments-pg = {git = "https://git@github.com/maharper/pygments-pg.git"}
-mkdocs-redirects = "^1.2.0"
-mkdocs-minify-plugin = "^0.6.1"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
