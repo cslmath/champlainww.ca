@@ -130,4 +130,4 @@ Remember to :material-button-cursor: press the _Take Action_ button to save your
 * [Creating New Achievements](https://webwork.maa.org/wiki/Achievement_Evaluator#Creating_New_Achievements)
 * [New Achievement Icons](https://openwebwork.org/2022/01/25/new-level-badges-and-achievement-icons-for-webwork/)
 
-[wiki]: (https://webwork.maa.org/wiki/Achievements)
+[wiki]: https://webwork.maa.org/wiki/Achievements

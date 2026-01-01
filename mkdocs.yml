@@ -87,8 +87,8 @@ extra_css:
 
 extra_javascript:
     - javascripts/mathjax.js
-    - https://polyfill.io/v3/polyfill.min.js?features=es6
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+#     - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
     version: 1.0.0
@@ -105,7 +105,7 @@ watch:
 # Formatting options
 
 markdown_extensions:
-    - smarty
+    - markdown.extensions.smarty
     - admonition
     - pymdownx.details      # makes admonitions collapsible
     - pymdownx.keys         # ++HMWK Sets++ etc
@@ -118,8 +118,8 @@ markdown_extensions:
     - pymdownx.arithmatex:
         generic: true
     - pymdownx.emoji: # for easy use of icons and emojis
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
 # For code highlighting
 # See https://squidfunk.github.io/mkdocs-material/reference/code-blocks/
     - pymdownx.highlight:
