@@ -7,7 +7,15 @@ date: 2009-02-01
 
 # WeBWorK News
 
-???+ info "August 18, 2024 - Upgrade to 2.18"
+???+ info "January 2026 - System maintenance"
+
+    Planned maintenance of our WeBWorK system, including server maintenance
+    and software upgrades will lead to the WeBWorK system being intermitently
+    unavailable during the first two weeks of January, 2026.
+
+    Contact one of the WeBWorK adminstrators for more information.
+
+??? info "August 18, 2024 - Upgrade to 2.18"
 
     The Champlain WeBWorK system has been upgraded to version 2.18.
     More details can be found in the [release notes](https://webwork.maa.org/wiki/Release_notes_for_WeBWorK_2.18).
@@ -20,7 +28,7 @@ date: 2009-02-01
 
     This is an early announcement and call for potential speakers.
 
-    ## WeBWorK Flash Talks
+    <h2>WeBWorK Flash Talks</h2>
     
     * 15 minutes each talk, 5 minutes questions
     * Tentatively: **Friday, February 16, 2024** 3:30-4:30pm (in Zoom)

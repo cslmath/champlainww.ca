@@ -154,3 +154,9 @@ Initialize project
 
 * Update all tools to the latest versions.
 
+## 2026-01-01
+
+* Update the content to current
+  - copyright year
+  - course numbers
+  - other tweaks and typos

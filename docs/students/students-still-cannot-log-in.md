@@ -9,11 +9,11 @@ date: 2022-03-31
 ## If you cannot log in to WeBWorK
 
 - Are you accessing the **correct course**?
-    + Check the **course name**. For example, Calculus 1 Science courses
-        begin with 201-NYA, whereas Calculus 1 Social Science courses begin with 201-SC1.
-        Linear Algebra Science courses begin with 201-NYC,
-        while Linear Algebra Social Science courses begin with
-        201-105 (old program) or 201-SLA (new program).
+    + Check the **course name**.
+      For example, _Calculus 1 Science_ courses begin with 201-SN2,
+      whereas _Calculus 1 Social Science_ courses begin with 201-SC1.
+      _Linear Algebra Science_ courses begin with 201-SN4,
+      while _Linear Algebra Social Science_ courses begin with 201-SLA.
     + Check **your teacher's name**.
         All courses have the teacher's name at the end.
     + Your teacher might have more than one course,

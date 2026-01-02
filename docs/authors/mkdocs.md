@@ -31,3 +31,20 @@ and the Material for MkDocs [documentation](https://squidfunk.github.io/mkdocs-m
 ## Some more stuff
 
 * [Page with some code](mkdocs-vs-pelican.md)
+
+## 2026-01-01
+
+hyphen: -  
+en-dash: --  
+em-dash: ---  
+ellipsis: ...  
+....  
+"quote"  
+'quote'  
+<<quote>>  
+Arrow ->  
+arrow =>  
+(c) (r) (tm)
+(a)  
+
+1/2 1/3 1/4 1/5

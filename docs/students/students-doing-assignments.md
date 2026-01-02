@@ -13,11 +13,11 @@ You can download and print the PDF file.
 There are two places in WeBWorK where you can create a PDF of an assignment:
 
 - From the list of Homework Sets,
-    click in the box to put a check mark beside the assignment you want
-    and then click on _"Download PDF or TeX Hardcopy for Selected Sets"_ (near the bottom).
+  click in the box to put a check mark beside the assignment you want
+  and then click on _"Download PDF or TeX Hardcopy for Selected Sets"_ (near the bottom).
 - Or, from within the assignment,
-    where you can see the list of problems,
-    click on _"Download PDF or TeX Hardcopy for Current Set"_.
+  where you can see the list of problems,
+  click on _"Download PDF or TeX Hardcopy for Current Set"_.
 
 ## How do I see the correct answer?
 
@@ -36,7 +36,7 @@ If that doesn't work, talk to your teacher.
 ## What happens if I answer a question right the first time, and try it again later and get it wrong?
 
 If you do a problem correctly once, its status will always be
-Correct even if you later do the problem again incorrectly.
+_Correct_ even if you later do the problem again incorrectly.
 If the problem allows partial credit,
 the highest percentage correct you receive on any attempt is recorded,
 regardless of which parts are correct or not.
