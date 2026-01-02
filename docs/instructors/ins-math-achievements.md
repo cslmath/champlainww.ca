@@ -35,7 +35,7 @@ This page is an introduction to writing custom Math Achievements.
     It is strongly suggested that you initially assign achievements to _no users_ and only assign achievements
     to the students once all of your customizations and configurations are done.
 
-    Checking and tracking achievements can be resource intensive, be sparing with the achievemnts
+    Checking and tracking achievements can be resource intensive, be sparing with the achievements
     that you assign to your students.
 
 ## Enable Math Achievements
@@ -120,7 +120,7 @@ In the **Achievements Editor**, click the pencil icon :material-pencil: next to 
 * _Category:_ challenge, secret, level, etc
 * _Points:_ The number of points gained by attaining this achievement
 * _Description:_ The achievement explanation displayed to students.  For example, _Finish at least one of the odd-numbered challenge problems_.
-* _Icon File:_ The file name of any of the icons in `/html/achievemnts/`.  `hanamaru.png` for example.
+* _Icon File:_ The file name of any of the icons in `/html/achievements/`.  `hanamaru.png` for example.
 
 Remember to :material-button-cursor: press the _Take Action_ button to save your changes.
 

@@ -50,7 +50,7 @@ Initialize project
     mkdocs serve    # builds the site and previews it on a local address, rebuilds it with changes
     ```
 
-* set up a user github pages repo at `maharper.igthub.com/maharper.github.io`
+* set up a user github pages repo at `maharper.github.com/maharper.github.io`
 * make a `gh-pages` branch
 * reconfigure so the `gh-pages` branch serves the site
 * set the local repo to sync with the gh repo
@@ -149,3 +149,14 @@ Initialize project
 * Some typos
 * Some minor updates
 * Add flash talks to news
+
+## 2025-12-31
+
+* Update all tools to the latest versions.
+
+## 2026-01-01
+
+* Update the content to current
+  - copyright year
+  - course numbers
+  - other tweaks and typos

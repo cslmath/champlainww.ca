@@ -9,7 +9,7 @@ Date: 2009-04-07
 
     These instructions were written for an instructors' workshop in 2009.
     Many things have changed in the WeBWorK system since then.
-    Use them with caution.
+    Use these instructions with caution.
 
 ## Create a new homework set
 

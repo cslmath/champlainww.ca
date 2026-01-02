@@ -7,10 +7,13 @@ window.MathJax = {
   },
   options: {
     ignoreHtmlClass: ".*|",
-    processHtmlClass: "arithmatex|md-nav__link|md-tabs__link|"
+    processHtmlClass: "arithmatex|md-nav__link|md-tabs__link|md-ellipsis"
   }
 };
 
-document$.subscribe(() => { 
+document$.subscribe(() => {
+  MathJax.startup.output.clearCache()
+  MathJax.typesetClear()
+  MathJax.texReset()
   MathJax.typesetPromise()
 })
