@@ -9,11 +9,7 @@ date: 2009-02-01
 
 ???+ info "January 2026 - System maintenance"
 
-    Planned maintenance of our WeBWorK system, including server maintenance
-    and software upgrades will lead to the WeBWorK system being intermitently
-    unavailable during the first two weeks of January, 2026.
-
-    Contact one of the WeBWorK adminstrators for more information.
+    The server the WeBWorK system runs on is upgraded to a new OS version.
 
 ??? info "August 18, 2024 - Upgrade to 2.18"
 
