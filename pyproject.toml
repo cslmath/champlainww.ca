@@ -2,7 +2,7 @@
 name = "champlainww.ca"
 description = "Source for the champlainww.ca landing and documentation pages."
 authors = [
-    {name = "Malcolm Harper", email = "mharper@crcmail.net"}
+    {name = "Malcolm Harper"}
 ]
 version = "1.0.0"
 requires-python = ">=3.10, <4.0"
