@@ -160,3 +160,13 @@ Initialize project
   - copyright year
   - course numbers
   - other tweaks and typos
+
+## 2026-05-14
+
+* Add banner and news announcing the upgrade scheduled for May-June
+
+## 2026-06-04
+
+* Add WW version upgrade news item
+* Start change of all `webwork.maa.org/wiki` references to `wiki.openwebwork.org/wiki`
+  correcting `http://` addresses to `https://` if possible.
