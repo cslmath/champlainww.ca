@@ -7,6 +7,11 @@ date: 2009-02-01
 
 # WeBWorK News
 
+???+ info "May/June 2026 - Planned WeBWorK version upgrade"
+
+    The WeBWorK version will be upgraded to 2.20 for the start of the summer 2026 term.
+    WeBWorK will be intermittently unavailable from May 27 through June 2, 2026.
+
 ???+ info "January 2026 - System maintenance"
 
     The server the WeBWorK system runs on is upgraded to a new OS version.
